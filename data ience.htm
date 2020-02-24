@@ -1,0 +1,2533 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>A Complete Tutorial To Learn Python For Data Science</title>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Python For Data Science Tutorial: Python is a general-purpose programming language that is becoming more popular for doing data science. Read For More!">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://cdn.mindmajix.com/images/mindmajix-fav-icon.png">
+    <link rel="icon" type="image/png" href="https://cdn.mindmajix.com/images/mindmajix-fav-icon.png">
+    <link rel="canonical" href="https://mindmajix.com/python-for-data-science-tutorial-for-beginners" />
+    <meta name="google-site-verification" content="BZ-x6vbnZIFORbdOm7Qc69DGYv_GdEphiPhLQ4DtQm4" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="A Complete Tutorial To Learn Python For Data Science" />
+    <meta property="og:description" content="Python For Data Science Tutorial: Python is a general-purpose programming language that is becoming more popular for doing data science. Read For More!" />
+    <meta property="og:url" content="https://mindmajix.com/python-for-data-science-tutorial-for-beginners" />
+    <meta property="og:site_name" content="Mindmajix" />
+    <meta property="og:image" content="https://cdn.mindmajix.com/images/mindmajix-logo-5.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="Python For Data Science Tutorial: Python is a general-purpose programming language that is becoming more popular for doing data science. Read For More!" />
+    <meta name="twitter:title" content="A Complete Tutorial To Learn Python For Data Science" />
+    <meta name="twitter:site" content="@MindMajix1" />
+    <meta name="twitter:image" content="https://cdn.mindmajix.com/images/Mindmajix_logo2.png" />
+    <meta name="twitter:creator" content="@MindMajix1" />
+
+
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=EwW5Shh0x8MXK3IKZiqoE8qlRFA2zMf-fFyRMzN15qYhf_cuzvXKXfd5qiIqszC24wWne7b3yCwJ4cvcGl6ALDO7R2_aeICFxj6N5nHeqpge4G1kN_xrb7EE87XPJejE" charset="UTF-8"></script><style>
+    *{margin:0;padding:0}.navbar{margin-bottom:0!important}.navbar-inverse{background-color:#222;border-color:#080808}@media (min-width:768px){.navbar-nav{float:left;margin:0}.navbar-nav>li{float:left;padding:14px 0}}@media (min-width:1200px){.container{width:1170px}}.nav>li,.nav>li>a{display:block}.nav>li>a{padding:10px 15px}.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-text{color:#fff!important}.inner-banner::before{background:#000;bottom:0;content:"";left:0;opacity:.8;position:absolute;right:0;top:0;z-index:-1}.inner-banner{padding:55px 0 50px;position:relative;width:100%;z-index:2;text-align:center}p.blog-title{color:#fff;font-size:30px;margin:0 0 30px;font-weight:600}.inner-breadcrumb ul li:first-child::before{display:none;font-size:0}.inner-breadcrumb ul li::before{color:#fff;content:"/ ";font-family:fontawesome;font-size:12px;font-weight:400;left:0;line-height:normal;margin-top:-7px;position:absolute;top:50%}.inner-breadcrumb ul li{display:inline-block;padding:0 8px 0 14px;position:relative;color:#fff;font-size:14px;line-height:14px}.inner-breadcrumb ul li:last-child,.inner-breadcrumb ul li:last-child a{color:#999}.inner-breadcrumb ul li a{color:#fff;display:block;font-size:14px;line-height:14px;text-transform:capitalize;transition:all .3s ease-in-out 0s}.inner-breadcrumb ul li a:hover{color:#fff}.breadcrumb-wrapper{background:#F7F7F7;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;padding:10px 0}.breadcrumb-wrapper h1.page-title{margin:7px 0 0;font-size:22px;line-height:1;letter-spacing:1px}.breadcrumb-wrapper .hot-line{text-align:right;font-size:12px;font-weight:500;margin:0}.breadcrumb-wrapper .breadcrumb{margin:0;padding:0;font-size:11px;background:0 0}.breadcrumb-wrapper .breadcrumb a{color:#555}.breadcrumb-wrapper .breadcrumb .active{color:#AAA}.stars{color:#F5AB40}.blog-date{border:3px solid #e94350;text-align:center;width:70px;margin:0 auto 20px}.blog-date>span{display:block}.blog-date .bdate{color:#333;font-size:16px;padding:6px 0}.blog-date .byear{background-color:#e94350;border:2px solid transparent;color:#fff;font-size:12px}.blog-title{font-size:16px;color:#333;line-height:26px;margin-top:0}.blog-text p{overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-align:justify}.blog-title a {color: #333;line-height: 26px;}
+
+      img
+      {
+        cursor: pointer;
+      }
+      .subscription_form
+      {
+        background: #f6f6f6;        
+        padding: 20px 40px;
+      }
+
+      .subscription_form p
+      {
+        color: #f6f6f6;     
+        text-align: center !important;
+      }
+      .linenums li {
+    list-style-type: decimal;
+}
+
+
+      ol.list {
+        counter-reset: qa;
+        list-style-type: none;
+        padding: 0;
+        margin: 0px 0px 0px 25px;
+      }
+
+      ol.list li {
+        line-height: 28px;
+        list-style: decimal;
+        counter-increment: qa;
+        padding: 10px;        
+        display: list-item;
+        font-weight: 400;
+        font-size: 15px;
+      }
+
+      ul.slist {
+        list-style-type: none;
+        padding: 0;
+        margin: 0px 0px 0px 25px;
+      }
+
+      ul.slist li {
+        line-height: 28px;
+        list-style: none;
+        padding: 10px;     
+        font-weight: 400;
+        font-size: 15px;
+        float: left;
+        margin-right:30px;
+      }
+
+      
+
+      .list li a {
+        color: #337ab7 !important;
+      }
+
+      table caption
+      {
+        font-weight: 600;
+      }
+      
+      table thead tr th
+      {
+        text-align: center;
+      }
+
+      td, th {
+          padding: 6px 10px !important;
+      }
+
+      @media (min-width: 768px){
+        .modal-dialog {
+            width: 450px !important;
+            margin: 40px auto !important;
+        }
+
+        .table-responsive {
+            overflow-x: visible !important;
+        }
+      }
+
+      .content p
+      {
+        text-align: justify;
+        font-size: 15px !important;
+        line-height: 28px !important;
+      }
+
+      .content p span
+      {        
+        word-break: break-all;
+      }
+
+      .blog-info ul li {
+          padding: 5px 0;
+        font-weight: 400;
+        font-size: 15px;
+      }
+
+      .meta-list li
+      {        
+          display: inline-block;
+      }
+
+      .list li a {
+        display: inline-block !important;
+      }
+
+      .blog_desc{
+          font-size:13px;
+          padding: 0px;
+          margin: 0px 0px;
+      }
+      .blog_desc > span {
+          border: 1px solid #EC4D50;
+          padding: 10px 20px;
+          vertical-align: middle;
+        margin-right: -1px;
+      }
+
+      .blog_desc > span > a {
+          color: #EC4D50;
+          text-decoration: none;
+      }
+      .span_text{
+        padding: 0px 6px;
+      }
+      .no-padding {
+          padding: 0px !important;
+      }
+      @media (min-width:320px) and (max-width:425px){
+        .blog_desc > span {
+            border: 1px solid #EC4D50;
+            padding: 8px 4px;
+            vertical-align: middle;
+          margin-right: -1px;
+        }
+      }
+
+      .social-share {
+          padding-top: 20px;
+          padding-bottom: 30px
+      }
+
+      .social-share h4 {
+          text-align: left;
+          margin-bottom: 20px
+      }
+
+      .social-link .facebook {
+          border: 2px solid #3b5998;
+          background-color: #3b5998;
+          color: #fff
+      }
+
+      .social-link .twitter {
+          border: 2px solid #00aced;
+          background-color: #00aced;
+          color: #fff
+      }
+
+      .social-link .google-plus {
+          border: 2px solid #dd4b39;
+          background-color: #dd4b39;
+          color: #fff
+      }
+
+      .social-link .linkedin {
+          border: 2px solid #007bb6;
+          background-color: #007bb6;
+          color: #fff
+      }
+
+      .social-link a {
+          display: inline-block;
+          padding: 10px;
+          font-size: 12px;
+          text-align: center;
+          vertical-align: middle;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 1px solid #333;
+          color: #333;
+          margin-right: 15px
+      }
+
+      .social-link {
+          position: relative
+      }
+
+      .social-link .facebook:hover {
+          background-color: transparent;
+          border: 2px solid #3b5998;
+          color: #3b5998
+      }
+
+      .social-link .twitter:hover {
+          background-color: transparent;
+          border: 2px solid #00aced;
+          color: #00aced
+      }
+
+      .social-link .google-plus:hover {
+          background-color: transparent;
+          border: 2px solid #dd4b39;
+          color: #dd4b39
+      }
+
+      .social-link .linkedin:hover {
+          background-color: transparent;
+          border: 2px solid #007bb6;
+          color: #007bb6
+      }
+
+      img{
+        display: block;
+        margin: 0 auto;
+        height: auto !important;
+        max-width: 100% !important;
+      }
+
+      .product-image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: none;
+}
+
+.product-image-overlay .product-image-overlay-close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    line-height: 35px;
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product-image-overlay img {
+    width: auto;
+    max-width: 85% !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+    ul.list li {
+      line-height: 28px !important;
+    }
+
+
+    .about-author {
+        border: solid 1px #e7e7e7;
+        border-radius: 4px;
+        padding: 20px;
+        margin: 20px 0;
+        margin-top: 35px;
+    }
+
+    .author-avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        float: left;
+    }
+
+    .author-avatar .avatar {
+        margin-left: 0 !important;
+    }
+    .author-info {
+        margin-left: 80px;
+    }
+
+    .author-info h5 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .cta_inline {
+        display: inline-block;
+        width: 100%;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 30px 15px;
+        text-align: center;
+            margin: 20px 0px;
+    }
+
+    </style>
+
+    
+
+  </head>
+
+  <body>
+    <style type="text/css">
+  .free-trail
+    {
+      display: none !important;
+    }
+    .logo
+    {
+      height: 42px !important;
+      width: auto !important;
+    }
+  @media only screen and (max-width: 1000px) and (min-width:300px) {
+    .free-trail
+    {
+      /*padding: 8px 16px !important;*/
+      display: inline-block !important;
+      width: 36%;
+      margin: 6px;
+      float: right;
+    }
+    .logo
+    {
+      height: 34px !important;
+      margin: 6px;
+      width: auto !important;
+    }
+
+  }
+</style>
+
+<header class="header">
+      
+    <nav id="" class="navbar navbar-inverse">
+
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="free-trail btn bg-red color-1" data-toggle="modal" data-target="#free_demo"  id="form_button" data-text="Join for a Free Demo" data-message="Message">Free Demo</a>
+          <a class="navbar-brand" href="https://mindmajix.com/">
+            <img src="https://cdn.mindmajix.com/asset/images/logo.png" alt="logo" class="img-responsive logo">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav f-s-11">
+            <li><a href="https://mindmajix.com/all-courses">Courses</a></li>
+            <li><a href="https://mindmajix.com/corporate-training">Corporate Training</a></li>
+            <li><a href="https://mindmajix.com/instructor">Become an Instructor</a></li>
+            <li><a href="https://mindmajix.com/blog">Blog</a></li>
+            <li>
+              <a class="btn bg-red color-1" data-toggle="modal" data-target="#free_demo"  id="form_button" data-text="Join for a Free Demo" data-message="Message">Free Demo</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="pull-xs-left"><a href="javascript:void();" class="search-menu"><span class="glyphicon glyphicon-search"></span></a></li>
+            <li class="pull-xs-left"><a href="https://mindmajix.com/login"><span class="glyphicon glyphicon-user"></span></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+</header>
+
+
+    <!-- Inner Banner -->
+
+    <div class="inner-banner">
+      <div class="container">
+        <div class="col-sm-12">
+          <p class="blog-title">Blog</p>
+        </div>
+        <div class="col-sm-12 inner-breadcrumb">
+          <ul>
+            <li><a href="https://mindmajix.com/">Home</a></li>
+            <li><a href="https://mindmajix.com/python" >Python</a></li>
+            <li>Python For Data Science Tutorial For Beginners</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Inner Banner -->
+
+
+    <!-- Content -->
+
+    <section class="content m-t-20 m-b-20">
+
+      <div class="container">
+        <div class="row">
+
+          <!-- Blog Info -->
+          <div class="col-md-8"> 
+
+            <div class="blog-info">
+              <h1>Python For Data Science Tutorial For Beginners</h1>
+              <ul class="meta-list">
+                <li>
+                  <h6><span class="stars" data-rating="4" data-num-stars="5" ></span> (4.0)</h6>
+                </li>
+                <li>
+                  <h6>| 3190 Ratings </h6>
+                </li>
+                <!-- <li>
+                                    <h6><i class="fa fa-clock-o"></i> Last Updated November 30, -0001 </h6>
+                </li> -->
+                
+              </ul>
+
+              <script type="application/ld+json">
+              {
+                "@context": "http://schema.org",
+                "@type": "TechArticle",
+                "image":"https://cdn.mindmajix.com/images/mindmajix-logo-5.png",
+                "author": "Mindmajix",
+                "headline":"Python For Data Science Tutorial For Beginners",
+                 "publisher": {
+                      "@type": "Organization",
+                      "name": "Mindmajix Technologies INC",
+                     "logo": "https://cdn.mindmajix.com/images/mindmajix-logo-5.png"
+                  },
+                  "datePublished": "2018-05-30",
+                  "dateModified": "2018-05-30",
+                "aggregateRating": {
+                  "@type": "AggregateRating", 
+                  "ratingValue": "4.0",
+                  "reviewCount": "3190"
+                }
+              }
+              </script>
+
+              <div class="clearfix"></div>
+
+              <div class="col-md-12 blog_desc p-0 m-b-20">
+        
+                <span>
+                  <a id="bookmarkme"  href="#" data-title="">
+                    <i class="fa fa-bookmark"></i>
+                    <span class="span_text hidden-xs">Bookmark this Post</span>
+                    <span class="span_text hidden-sm hidden-md hidden-lg">Bookmark</span>
+                  </a>
+                </span>
+                <span>
+                    <a href="#" data-toggle="modal" data-target="#email_post" id="emailpost" >
+                        <i class="fa fa-envelope"></i>
+                        <span class="span_text hidden-xs">Email this Post</span>
+                        <span class="span_text hidden-sm hidden-md hidden-lg">Email</span>
+                    </a>
+                    
+                </span>
+                <span>
+                    <a href="#" data-title="">
+                        <i class="fa fa-eye"></i>
+                        <span class="span_text">3210</span>
+                      </a>
+                </span>
+                
+            
+              
+              </div>
+              <!-- end -->
+              <div class="clearfix"></div>
+              
+              <!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2 style="text-align: justify;">Introduction</h2>
+<br>
+<p style="text-align: justify;">Data is one of the key elements for any business. No matter what business you’re in, you’ll always need to manage data in some aspect. There are numerous companies or businesses, where special teams are assigned to manage and analyze data for different purposes. The data science learners have a lot of things to take care of, as being a data scientist is not a piece of cake. </p>
+<br>
+<p style="text-align: justify;"><img style="width: 1146px; height: 573px;" title="Python Data Science" src="https://cdn.mindmajix.com/blog/images/python-data-science-30.png" alt="Python Data Science" /></p>
+<p style="text-align: justify;">Different types of data needs a multidisciplinary approach (i.e. disciplined and specialized approach to a topic or problem) to different mathematical models, statistics, graphs, databases & business or scientific logic to make it highly arranged and representable. This is where Python comes in. Python has the ability to manage all these tasks and is blessed with numerous built-in features & libraries that make it compatible with the needs of <a href="https://mindmajix.com/data-science-tutorial" target="_blank" rel="noopener">data science</a>. From this article, we acquire some detailed information about data science and the use of python in it.</p>
+<div style="background: #eee; border: 1px solid #ccc; padding: 15px 10px;">
+<p class="review-heading" style="text-align: center;"><span style="font-size: 14px;"><strong>Machine Learning -Table of Contents</strong></span></p>
+<ul class="list">
+<li><strong><a href="#what-is-python">What is Python? </a></strong></li>
+<li><strong><a href="#python-for-data-science">Why should you learn Python for Data Science</a></strong></li>
+<li><strong><a href="#work">How does Machine Learning Work?</a></strong></li>
+<li><strong><a href="#good">Which one is good for Data Science?</a></strong></li>
+<li><strong><a href="#components">Concrete Components of Python Data Science</a></strong></li>
+<li><strong><a href="#pros-and-cons">Pros and cons of Python for Data Science</a></strong></li>
+<li><strong><a href="#advantages">Advantages of “Python for Data Science” Course</a></strong></li>
+</ul>
+</div>
+<h3 id="what-is-python">What is Python?</h3>
+<p style="text-align: justify;">Python is basically an interpreted, high-level programming language which is used for general programming. It is blessed with dynamic semantics and is not for data science specifically -  this simply means that if you want to be a data scientist, you don’t have to hustle with it very much. Only a limited part of this programming language can make you achieve the heights you desire in this sector. Data Science coding generally revolves around the following four languages:</p>
+<ul class="list">
+<li style="text-align: justify;">Bash</li>
+<li style="text-align: justify;">R</li>
+<li style="text-align: justify;">SQL</li>
+<li style="text-align: justify;">Python</li>
+</ul>
+<p style="text-align: justify;"><strong>Is Python for Data Science only?</strong></p>
+<p style="text-align: justify;">It will be great if you master all these platforms, but it takes time as there’s no magic wand to make it done quickly. Starting your learning with Python and SQL will make you cover 99% of the entire syllabus and that will be a marvelous move if you’re starting from scrap. R is also beneficial to get into the data science field, but it is a bit complicated to learn as compared to Python.</p>
+<div style="background: #eeeeee; border: 1px solid #cccccc; padding: 5px 10px; text-align: center;">Enthusiastic about exploring the skill set of Data Science with Python? Then, have a look at <a href="https://mindmajix.com/data-science-with-python-training" target="_blank" rel="noopener"><span style="color: #ff0000;">Data Science with Python Training</span></a> Certification Course.</div>
+<h3 id="python-for-data-science">Why should you learn Python for Data Science?</h3>
+<p>Python is highly recommended to grow as a Data Scientist because of its simple and easy-to-learn syntax. Moreover, its uncountable libraries and features makes data handling and analyzing very easy. As compared to other programming languages like R, it has some special points which make it more comfortable to use. Let us have a look at those points:</p>
+<ul class="list">
+<li style="text-align: justify;">It is an open source platform and is free to install for everyone.</li>
+<li style="text-align: justify;">It has an awesome online community.</li>
+<li style="text-align: justify;">It is very easy to learn & implement.</li>
+<li style="text-align: justify;">It is one of the highly emerging platforms for development as well.</li>
+<li style="text-align: justify;">It can become a common platform for both data science & production of web based products.</li>
+</ul>
+<p style="text-align: justify;">These are some major points about Python which enable it to stand out of the crowd. However, there are also many other advantages of using Python for Data Science, but you will encounter them during your learning process.</p>
+<h3 id="good">Which one is good for Data Science?</h3>
+<p><img style="width: 2434px; height: 1046px;" title="Which one is good for Data Science?" src="https://cdn.mindmajix.com/blog/images/data-science-30.png" alt="Which one is good for Data Science?" /><br />Just like any other programming language, Python is also getting evolved day-by-day. Currently, the question which strikes the mind of a learner is whether to choose Python 2 or Python 3. Many people will suggest you to choose Python 2 over Python 3, just because of being used in most of the industries. However, that option might not prove much fruitful, as Python 2 reportedly will not be supported after 2020. However, there are no major differences between these two platforms, so whichever you choose, you can learn the other one in just a couple of hours. Let us have a look at the difference between these two:</p>
+<p style="text-align: justify;"><strong>Python 2 vs Python 3</strong></p>
+<div class="table-responsive"><table border="3" cellpadding="1" cellspacing="1" style="width:95%;" class="table">
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Python 2</strong></td>
+<td style="text-align: center;"><strong>Python 3</strong></td>
+</tr>
+<tr>
+<td style="text-align: justify;">It is the Legacy</td>
+<td style="text-align: justify;">It is the Future</td>
+</tr>
+<tr>
+<td style="text-align: justify;">Slower execution speed</td>
+<td style="text-align: justify;">Fastest Python ever</td>
+</tr>
+<tr>
+<td style="text-align: justify;">Strings are stored as ASCII by default</td>
+<td style="text-align: justify;">Strings are Unicode by default</td>
+</tr>
+<tr>
+<td style="text-align: justify;">It marks your calculation straight to the nearest whole number.<br />{For eg. 5/2=2}</td>
+<td style="text-align: justify;">Calculation results the highly expected value.<br />{For eg. 5/2=2.5}</td>
+</tr>
+<tr>
+<td style="text-align: justify;"><strong>Small Syntax Difference</strong></td>
+<td style="text-align: justify;"> </td>
+</tr>
+<tr>
+<td style="text-align: justify;">To print Hello<br />Print “Hello, world!”</td>
+<td style="text-align: justify;">To print Hello<br />Print {“Hello, world!”}</td>
+</tr>
+</tbody>
+</table></div>
+<p style="text-align: justify;">Apart from these differences, both the platforms have almost same architecture. But looking to the improvements & advancements, Python 3 is undoubtedly the winner in race. In a single line, we recommend you to choose Python 3 over Python 2, as it is a good option for Data Science.</p>
+<p style="text-align: center;"><strong><span style="font-family: georgia,serif;"><a style="background-color: #e94350; color: #ffffff; padding: 10px 20px;" href="https://mindmajix.com/python-tutorial" target="_blank" rel="noopener">Check Out Python Tutorials </a></span></strong></p>
+<h3 id="components">Concrete Components of Python Data Science</h3>
+<p style="text-align: justify;">Considering Python as the best programming language for data science, let us have a look at its concrete components that makes it stand on that position. Here is a list of Python Data Science concrete elements. Kindly take a look at these:</p>
+<p style="text-align: justify;"><strong>Data exploration & analysis</strong></p>
+<p style="text-align: justify; margin-left: 40px;">Python is blessed with numerous built-in libraries that make it the best in this field. These libraries and features help you in exploring and analyzing entire data structure in deep. Pandas, NumPy & SciPy are some of the Python libraries that allows you accomplish these tasks.</p>
+<p style="text-align: justify;"><strong>Data visualization</strong></p>
+<p style="text-align: justify; margin-left: 40px;">It is a language that allows you to make self explanatory names of your data. You can simply take data and turn it into something more colourful. Matplotlib, Seaborn & Datashader are some of the Python libraries that helps you do this task.</p>
+<p style="text-align: justify;"><strong>Data storage and big data frameworks</strong></p>
+<p style="text-align: justify; margin-left: 40px;">As its name defines, Big Data is the data, which is either very large to reside on a single system, or cannot be processed in the absence of a distributed environment. At this place, Python along with Apache technologies plays a major role to make it done. Apache Spark, Apache Hadoop, HDFS, Dask & h5py/pytables are some utilities and libraries that help you during the entire process.</p>
+<p style="text-align: justify;"><strong>Machine learning</strong></p>
+<p style="text-align: justify; margin-left: 40px;">We can define this as a supervised or unsupervised learning task. Scikit-learn is a library that allows you to implement classification, regression, clustering & dimensionality reduction. Apart from this, Python is also blessed with StatsModels, which is less actively developed but have some very useful features.</p>
+<p style="text-align: justify;"><strong>Deep learning</strong></p>
+<p style="text-align: justify; margin-left: 40px;">It is basically a subset of machine learning and is commonly implemented with Keras. Along with Keras, TensorFlow is also used majorly for this purpose.</p>
+<p style="text-align: justify;"><strong>Others</strong></p>
+<p style="text-align: justify; margin-left: 40px;">Apart from all these above given processes or tasks, Python also performs additional things such as natural language processing & image manipulation. For this, libraries like nltk, Spacy, Open CV/cv2, scikit-image & Cython are used majorly.</p>
+<p style="text-align: justify; margin-left: 40px;">These are some major concrete elements of python data science that makes it comfortable and easy to use for general audience and new learners. In a simple line, we can say that if you desire to get into data science field or want be a data scientist, then python is a panacea for you.</p>
+<h3 id="pros-and-cons">Pros and cons of Python for Data Science</h3>
+<p style="text-align: justify;">Just like any other programing language or digital platform, python also comes with its own advantages and disadvantages. Before heading any further with this language for your career in Data Science, have a look at all the benefits and drawbacks of it.</p>
+<p style="text-align: justify;"><strong>Pros</strong></p>
+<ul class="list">
+<li style="text-align: justify;">Python is versatile, i.e. it is easy to use and fast to develop.</li>
+<li style="text-align: justify;">It is open source and is blessed with a vibrant community.</li>
+<li style="text-align: justify;">It is highly scalable.</li>
+<li style="text-align: justify;">You can get all the libraries you can imagine in Python.</li>
+<li style="text-align: justify;">It is great for prototypes. You can do more with less coding in this programming language.</li>
+</ul>
+<p style="text-align: justify;"><strong>Cons</strong></p>
+<ul class="list">
+<li style="text-align: justify;">It is an interpreted language, hence you may find it a bit slower than some other programming languages.</li>
+<li style="text-align: justify;">Due to the availability of GIL (Global Interpreter Lock), threading is not really good in Python.</li>
+<li style="text-align: justify;">Python is not native to mobile environment. Some programmers also see it as a weak language for mobile computing.</li>
+<li style="text-align: justify;">It has design restrictions.</li>
+<li style="text-align: justify;">Some programmers also take python’s simplicity as its weakness. According to them, simplicity can offer you an easy start and a flat learning curve, but that can also affect your abilities of learning other complicated platforms.</li>
+</ul>
+<p style="text-align: justify;">These are the pros and cons of using Python for Data Science. By looking at them, you can simply get an idea to make a healthy decision regarding your career. This will simply help you in comparing Python with other programming language and getting the best suitable one for you according to your preferences.</p>
+<h3 id="advantages">Advantages of “Python for Data Science” Course</h3>
+<p><img style="width: 2434px; height: 1046px;" title="Advantages of Data Science" src="https://cdn.mindmajix.com/blog/images/advantages-of-python-30.png" alt="Advantages of Data Science" /></p>
+<p style="text-align: justify;">There are numerous advantages of Python to be used for the Data Science course. It is versatile, which means it is easy to use and very fast to develop. Moreover, only a small part of this programming language is needed to be learnt to get into data science business. Mastering complete Python will also give you access to get into some other web development tasks. Apart from this, the availability of its numerous libraries is the panacea of its success in Data Science. Its predefined libraries makes things a lot more easier than that of other languages.</p>
+<p style="text-align: justify;">People who have chosen Python for Data Science are undeniably achieving great heights in their careers in just a splash of time. There are many websites like Payscale that clearly elaborate the salary structures of these people. In simple words, we can say that if you are getting ready to row your boat into the ocean of Data Science then leave the oars of other languages and choose Python to make it a Four Winns.</p>
+<p style="text-align: justify;">The credit of Python’s growth completely goes to its ecosystem. Currently, numerous volunteers are engaged in developing Python libraries as the programing language has extended its reach to the data science sector. This helps in the development of advanced tools and processes in an easy manner. Python is easy, simple, powerful, and innovative due to its wide usage in a different contexts, some of which are not associated with data science. R is also an optimized environment for data analysis undoubtedly, but it is a bit difficult to learn.</p>
+<p style="text-align: center;"><strong style="text-align: center;"><span style="font-family: georgia, serif;"><a style="color: #ffffff; background-color: #e94350; padding: 10px 20px;" href="https://mindmajix.com/python-interview-questions">Frequently Asked Python Interview Questions & Answers</a></span></strong></p>
+<h3 style="text-align: justify;">Final Thoughts</h3>
+<p style="text-align: justify;">Python started its journey in 1991 and has been getting an exponential growth of development till now. The programming language has proved to be one of the easiest programing languages, thanks to its built it libraries and features. Python is expanding is arms more day by day and is getting used for various type of development and management purposes.</p>
+<p style="text-align: justify;">Python is undeniable the best programing language to start your journey as a Data Learner or Data Scientist. Its numerous libraries and easy to use structure makes it more reliable for all the new learners in this field. Moreover, learners can also use this language for several other web development purposes. Comparing with all the other programing languages used for data science, we conclude that Python is somehow a bit superior than most of them. Hence, we highly recommend to make Python 3 as your guide to the future opportunities.</p>
+<div style="background-color: #dbdbdb; border: 1px solid #cccccc; padding: 7px 10px; text-align: center;"><span style="font-family: georgia,serif;">Explore Python Sample Resumes! Download & Edit, Get Noticed by Top Employers!<strong><a style="background-color: #e94350; color: #ffffff; padding: 1px 20px; float: right;" href="https://mindmajix.com/python-sample-resumes">Download Now!</a></strong></span></div>
+</body>
+</html>
+              <div class="clearfix"></div>
+                            <div class="subscription_form m-t-10">
+                <h4 class="review-heading text-center f-s-18 m-b-20">Subscribe For Free Demo </h4>
+                <form action="https://mindmajix.com/form_insert" method="POST">
+                    <div class="row m-t-5">
+                        <div class="col-md-4 text-left">
+                            <label class="floating-label">Phone *</label>
+                            <input type="tel" name="phone_number" onkeypress="return isNumberKey(event)" maxlength="15" required=""> 
+                        </div>
+                        <div class="col-md-4 text-left">
+                            <label class="floating-label">E-mail Address *</label>
+                            <input type="email" name="email" required=""> 
+                        </div>
+                        <div class="col-md-4">
+                          <input type="hidden" name="type" id="" value="Subscribe">
+                          <input type="hidden" name="page_url" value="https://mindmajix.com/python-for-data-science-tutorial-for-beginners">
+                          <input type="hidden" name="subject" value="Subscribe">
+                          <input type="hidden" name="ip_address" value="197.232.29.98">
+                          <input type="hidden" name="country" value="">
+                          <input type="hidden" name="fullname" value="0">
+                          <input type="hidden" name="message" value="0">
+                          <button href="javascript:;" type="submit" class="btn-100 btn bg-red waves-effect waves-light">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="f-s-12"> Free Demo for Corporate & Online Trainings.</p>
+              </div>
+                            
+              <div class="clearfix"></div>
+
+
+
+
+                            <div class="about-author">
+                <div class="author-avatar">
+                  <img width="60" height="60" alt="Ravindra Savaram" title="Ravindra Savaram" class="avatar" src="https://mindmajix.com/asset/authors/ravindra.jpg">
+                </div>
+                <div class="author-info">
+                  <h5>About The Author</h5>
+                  <!-- <a href="#" rel="author">Ravindra Savaram</a> - -->
+                  <!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Ravindra Savaram is a Content Lead at <a title="Mindmajix" href="https://mindmajix.com" target="_blank" rel="noopener">Mindmajix.com</a>. His passion lies in writing articles on the most popular IT platforms including Machine learning, DevOps, Data Science, Artificial Intelligence, RPA, Deep Learning, and so on. You can stay up to date on all these technologies by following him on <a title="Linkedin" href="https://www.linkedin.com/in/savaram-ravindra-48064641/" target="_blank" rel="noopener">LinkedIn</a> and <a title="Twitter" href="https://twitter.com/s11ravindra" target="_blank" rel="noopener">Twitter</a>.</p>
+</body>
+</html>                </div>
+                <div class="clearfix"></div>
+              </div>
+
+              <script type=application/ld+json>      
+              {
+                  "@context": "http://schema.org",
+                  "@type": "Article",
+                  "mainEntityOfPage": "https://mindmajix.com/python-for-data-science-tutorial-for-beginners",
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "Mindmajix",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://cdn.mindmajix.com/images/mindmajix-logo-5.png"
+                      }
+                  },
+                  "headline": "Python For Data Science Tutorial For Beginners",
+                  "datePublished": "2018-05-30",
+                  "dateModified": "0000-00-00",
+                  "author": {
+                      "@type": "Person",
+                      "name": "Ravindra Savaram"
+                  },
+                  "image": {
+                      "@type": "ImageObject",
+                      "url": "https://cdn.mindmajix.com/images/mindmajix-logo-5.png"
+                  },                  
+                  "articleBody": "
+
+
+
+
+Introduction
+
+Data is one of the key elements for any business. No matter what business ",
+                  "description": "
+
+
+
+
+Introduction
+
+Data is one of the key elements for any business. No matter what business "
+              }
+              </script>
+              
+              <br>
+              <a href="//www.dmca.com/Protection/Status.aspx?ID=5b159fca-d195-4289-83e3-b69a0818b38d" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=5b159fca-d195-4289-83e3-b69a0818b38d"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script> 
+              <div class="clearfix"></div>
+              
+              <div class="social-share" style="">
+
+                <h4 style="">Social Share</h4>
+                <div class="social-link">
+                  <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://mindmajix.com/python-for-data-science-tutorial-for-beginners"><i class="fa fa-facebook"></i></a>
+                  <a class="twitter" href="https://twitter.com/home?status=https://mindmajix.com/python-for-data-science-tutorial-for-beginners"><i class="fa fa-twitter"></i></a>
+                  <a class="google-plus" href="https://plus.google.com/share?url=https://mindmajix.com/python-for-data-science-tutorial-for-beginners"><i class="fa fa-google-plus"></i></a>
+                  <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://mindmajix.com/python-for-data-science-tutorial-for-beginners&title=https://mindmajix.com/python-for-data-science-tutorial-for-beginners&summary=&source="><i class="fa fa-linkedin"></i></a>
+                </div>         
+
+              </div>  
+
+              <div class="row">
+                <div class="col-md-6 col-xs-6"> 
+                     
+                    <a href="https://mindmajix.com/sap-bi-bo-interview-questions" class="btn bg-red">Previous</a>
+                                  </div>
+                <div class="col-md-6 col-xs-6 text-right">
+                                      <a href="https://mindmajix.com/top-20-python-frameworks-list" class="btn bg-red">Next</a>
+                                  </div>
+              </div>
+              <div class="clearfix m-t-20 m-b-20"></div>
+              
+            </div>
+            <div class="clearfix"></div>
+            
+          </div>
+          <!-- End Blog Info -->
+
+          <div class="col-md-4">
+
+            <div class="form-wrapper m-t-20" id="form_sticky" style="opacity: 4.276;">
+
+  <h4 class="sidebar-heading-center f-s-18 m-b-20">Drop us a Query</h4>
+  
+  <div class="p-r-10 p-l-10">
+    
+      <form action="https://mindmajix.com/form_insert" method="POST">
+
+        <div class="row">
+            <div class="col-md-12">
+                <label for="fullname" class="floating-label">Full Name</label>
+                <input type="text" required="" name="fullname"> 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <label for="email" class="floating-label">E-mail Address</label>
+                <input type="email" name="email" required=""> 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <label for="course-name" class="floating-label">Course Name</label>
+                <input type="text" name="course_name" required=""> 
+            </div>
+        </div>
+
+        <span id="ierror" class="color-theme"></span>
+        <div class="row">
+          <div class="col-md-3 col-xs-3 p-r-0 country_code m-t-7">
+              <select id="drop_cc" name="c_code" class="form-control">
+                                  <option value="US"  data-code="+1" data-text="United States">United States</option>
+                                  <option value="AU"  data-code="+61" data-text="Australia">Australia</option>
+                                  <option value="IN"  data-code="+91" data-text="India">India</option>
+                                  <option value="GB"  data-code="+44" data-text="United Kingdom">United Kingdom</option>
+                                  <option value="CA"  data-code="+1" data-text="Canada">Canada</option>
+                                  <option value="SA"  data-code="+966" data-text="Saudi Arabia">Saudi Arabia</option>
+                                  <option value="AE"  data-code="+971" data-text="United Arab Emirates">United Arab Emirates</option>
+                                  <option value="SG"  data-code="+65" data-text="Singapore">Singapore</option>
+                                  <option value="CH"  data-code="+41" data-text="Switzerland">Switzerland</option>
+                                  <option value="ZA"  data-code="+27" data-text="South Africa">South Africa</option>
+                                  <option value="BD"  data-code="+880" data-text="Bangladesh">Bangladesh</option>
+                                  <option value="BE"  data-code="+32" data-text="Belgium">Belgium</option>
+                                  <option value="BF"  data-code="+226" data-text="Burkina Faso">Burkina Faso</option>
+                                  <option value="BG"  data-code="+359" data-text="Bulgaria">Bulgaria</option>
+                                  <option value="BA"  data-code="+387" data-text="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                  <option value="BB"  data-code="+1246" data-text="Barbados">Barbados</option>
+                                  <option value="WF"  data-code="+681" data-text="Wallis and Futuna">Wallis and Futuna</option>
+                                  <option value="BL"  data-code="+590" data-text="Saint Barthelemy">Saint Barthelemy</option>
+                                  <option value="BM"  data-code="+1441" data-text="Bermuda">Bermuda</option>
+                                  <option value="BN"  data-code="+673" data-text="Brunei">Brunei</option>
+                                  <option value="BO"  data-code="+591" data-text="Bolivia">Bolivia</option>
+                                  <option value="BH"  data-code="+973" data-text="Bahrain">Bahrain</option>
+                                  <option value="BI"  data-code="+257" data-text="Burundi">Burundi</option>
+                                  <option value="BJ"  data-code="+229" data-text="Benin">Benin</option>
+                                  <option value="BT"  data-code="+975" data-text="Bhutan">Bhutan</option>
+                                  <option value="JM"  data-code="+1876" data-text="Jamaica">Jamaica</option>
+                                  <option value="BV"  data-code="+55" data-text="Bouvet Island">Bouvet Island</option>
+                                  <option value="BW"  data-code="+267" data-text="Botswana">Botswana</option>
+                                  <option value="WS"  data-code="+685" data-text="Samoa">Samoa</option>
+                                  <option value="BQ"  data-code="+599" data-text="Bonaire, Saint Eustatius and Saba ">Bonaire, Saint Eustatius and Saba </option>
+                                  <option value="BR"  data-code="+55" data-text="Brazil">Brazil</option>
+                                  <option value="BS"  data-code="+1242" data-text="Bahamas">Bahamas</option>
+                                  <option value="JE"  data-code="+44" data-text="Jersey">Jersey</option>
+                                  <option value="BY"  data-code="+375" data-text="Belarus">Belarus</option>
+                                  <option value="BZ"  data-code="+501" data-text="Belize">Belize</option>
+                                  <option value="RU"  data-code="+7" data-text="Russia">Russia</option>
+                                  <option value="RW"  data-code="+250" data-text="Rwanda">Rwanda</option>
+                                  <option value="RS"  data-code="+381" data-text="Serbia">Serbia</option>
+                                  <option value="TL"  data-code="" data-text="East Timor">East Timor</option>
+                                  <option value="RE"  data-code="" data-text="Reunion">Reunion</option>
+                                  <option value="TM"  data-code="+993" data-text="Turkmenistan">Turkmenistan</option>
+                                  <option value="TJ"  data-code="+992" data-text="Tajikistan">Tajikistan</option>
+                                  <option value="RO"  data-code="+40" data-text="Romania">Romania</option>
+                                  <option value="TK"  data-code="+690" data-text="Tokelau">Tokelau</option>
+                                  <option value="GW"  data-code="+245" data-text="Guinea-Bissau">Guinea-Bissau</option>
+                                  <option value="GU"  data-code="+1671" data-text="Guam">Guam</option>
+                                  <option value="GT"  data-code="+502" data-text="Guatemala">Guatemala</option>
+                                  <option value="GS"  data-code="" data-text="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                                  <option value="GR"  data-code="+30" data-text="Greece">Greece</option>
+                                  <option value="GQ"  data-code="+240" data-text="Equatorial Guinea">Equatorial Guinea</option>
+                                  <option value="GP"  data-code="" data-text="Guadeloupe">Guadeloupe</option>
+                                  <option value="JP"  data-code="+81" data-text="Japan">Japan</option>
+                                  <option value="GY"  data-code="+592" data-text="Guyana">Guyana</option>
+                                  <option value="GG"  data-code="" data-text="Guernsey">Guernsey</option>
+                                  <option value="GF"  data-code="" data-text="French Guiana">French Guiana</option>
+                                  <option value="GE"  data-code="+995" data-text="Georgia">Georgia</option>
+                                  <option value="GD"  data-code="+1473" data-text="Grenada">Grenada</option>
+                                  <option value="GA"  data-code="+241" data-text="Gabon">Gabon</option>
+                                  <option value="SV"  data-code="+503" data-text="El Salvador">El Salvador</option>
+                                  <option value="GN"  data-code="+224" data-text="Guinea">Guinea</option>
+                                  <option value="GM"  data-code="+220" data-text="Gambia">Gambia</option>
+                                  <option value="GL"  data-code="+299" data-text="Greenland">Greenland</option>
+                                  <option value="GI"  data-code="+350" data-text="Gibraltar">Gibraltar</option>
+                                  <option value="GH"  data-code="+233" data-text="Ghana">Ghana</option>
+                                  <option value="OM"  data-code="+968" data-text="Oman">Oman</option>
+                                  <option value="TN"  data-code="+216" data-text="Tunisia">Tunisia</option>
+                                  <option value="JO"  data-code="+962" data-text="Jordan">Jordan</option>
+                                  <option value="HR"  data-code="+385" data-text="Croatia">Croatia</option>
+                                  <option value="HT"  data-code="+509" data-text="Haiti">Haiti</option>
+                                  <option value="HU"  data-code="+36" data-text="Hungary">Hungary</option>
+                                  <option value="HK"  data-code="+852" data-text="Hong Kong">Hong Kong</option>
+                                  <option value="HN"  data-code="+504" data-text="Honduras">Honduras</option>
+                                  <option value="HM"  data-code="" data-text="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+                                  <option value="VE"  data-code="+58" data-text="Venezuela">Venezuela</option>
+                                  <option value="PR"  data-code="+1" data-text="Puerto Rico">Puerto Rico</option>
+                                  <option value="PS"  data-code="" data-text="Palestinian Territory">Palestinian Territory</option>
+                                  <option value="PW"  data-code="+680" data-text="Palau">Palau</option>
+                                  <option value="PT"  data-code="+351" data-text="Portugal">Portugal</option>
+                                  <option value="SJ"  data-code="" data-text="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                                  <option value="PY"  data-code="+595" data-text="Paraguay">Paraguay</option>
+                                  <option value="IQ"  data-code="+964" data-text="Iraq">Iraq</option>
+                                  <option value="PA"  data-code="+507" data-text="Panama">Panama</option>
+                                  <option value="PF"  data-code="+689" data-text="French Polynesia">French Polynesia</option>
+                                  <option value="PG"  data-code="+675" data-text="Papua New Guinea">Papua New Guinea</option>
+                                  <option value="PE"  data-code="+51" data-text="Peru">Peru</option>
+                                  <option value="PK"  data-code="+92" data-text="Pakistan">Pakistan</option>
+                                  <option value="PH"  data-code="+63" data-text="Philippines">Philippines</option>
+                                  <option value="PN"  data-code="+870" data-text="Pitcairn">Pitcairn</option>
+                                  <option value="PL"  data-code="+48" data-text="Poland">Poland</option>
+                                  <option value="PM"  data-code="+508" data-text="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                                  <option value="ZM"  data-code="+260" data-text="Zambia">Zambia</option>
+                                  <option value="EH"  data-code="" data-text="Western Sahara">Western Sahara</option>
+                                  <option value="EE"  data-code="+372" data-text="Estonia">Estonia</option>
+                                  <option value="EG"  data-code="+20" data-text="Egypt">Egypt</option>
+                                  <option value="EC"  data-code="+593" data-text="Ecuador">Ecuador</option>
+                                  <option value="IT"  data-code="+39" data-text="Italy">Italy</option>
+                                  <option value="VN"  data-code="+84" data-text="Vietnam">Vietnam</option>
+                                  <option value="SB"  data-code="+677" data-text="Solomon Islands">Solomon Islands</option>
+                                  <option value="ET"  data-code="+251" data-text="Ethiopia">Ethiopia</option>
+                                  <option value="SO"  data-code="+252" data-text="Somalia">Somalia</option>
+                                  <option value="ZW"  data-code="+263" data-text="Zimbabwe">Zimbabwe</option>
+                                  <option value="ES"  data-code="+34" data-text="Spain">Spain</option>
+                                  <option value="ER"  data-code="+291" data-text="Eritrea">Eritrea</option>
+                                  <option value="ME"  data-code="+382" data-text="Montenegro">Montenegro</option>
+                                  <option value="MD"  data-code="" data-text="Moldova">Moldova</option>
+                                  <option value="MG"  data-code="+261" data-text="Madagascar">Madagascar</option>
+                                  <option value="MF"  data-code="+1599" data-text="Saint Martin">Saint Martin</option>
+                                  <option value="MA"  data-code="+212" data-text="Morocco">Morocco</option>
+                                  <option value="MC"  data-code="+377" data-text="Monaco">Monaco</option>
+                                  <option value="UZ"  data-code="+998" data-text="Uzbekistan">Uzbekistan</option>
+                                  <option value="MM"  data-code="+95" data-text="Myanmar">Myanmar</option>
+                                  <option value="ML"  data-code="+223" data-text="Mali">Mali</option>
+                                  <option value="MO"  data-code="" data-text="Macao">Macao</option>
+                                  <option value="MN"  data-code="+976" data-text="Mongolia">Mongolia</option>
+                                  <option value="MH"  data-code="+692" data-text="Marshall Islands">Marshall Islands</option>
+                                  <option value="MK"  data-code="" data-text="Macedonia">Macedonia</option>
+                                  <option value="MU"  data-code="+230" data-text="Mauritius">Mauritius</option>
+                                  <option value="MT"  data-code="+356" data-text="Malta">Malta</option>
+                                  <option value="MW"  data-code="+265" data-text="Malawi">Malawi</option>
+                                  <option value="MV"  data-code="+960" data-text="Maldives">Maldives</option>
+                                  <option value="MQ"  data-code="" data-text="Martinique">Martinique</option>
+                                  <option value="MP"  data-code="+1670" data-text="Northern Mariana Islands">Northern Mariana Islands</option>
+                                  <option value="MS"  data-code="+1664" data-text="Montserrat">Montserrat</option>
+                                  <option value="MR"  data-code="+222" data-text="Mauritania">Mauritania</option>
+                                  <option value="IM"  data-code="+44" data-text="Isle of Man">Isle of Man</option>
+                                  <option value="UG"  data-code="+256" data-text="Uganda">Uganda</option>
+                                  <option value="TZ"  data-code="" data-text="Tanzania">Tanzania</option>
+                                  <option value="MY"  data-code="+60" data-text="Malaysia">Malaysia</option>
+                                  <option value="MX"  data-code="+52" data-text="Mexico">Mexico</option>
+                                  <option value="IL"  data-code="+972" data-text="Israel">Israel</option>
+                                  <option value="FR"  data-code="+33" data-text="France">France</option>
+                                  <option value="IO"  data-code="" data-text="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                  <option value="SH"  data-code="+290" data-text="Saint Helena">Saint Helena</option>
+                                  <option value="FI"  data-code="+358" data-text="Finland">Finland</option>
+                                  <option value="FJ"  data-code="+679" data-text="Fiji">Fiji</option>
+                                  <option value="FK"  data-code="" data-text="Falkland Islands">Falkland Islands</option>
+                                  <option value="FM"  data-code="" data-text="Micronesia">Micronesia</option>
+                                  <option value="FO"  data-code="+298" data-text="Faroe Islands">Faroe Islands</option>
+                                  <option value="NI"  data-code="+505" data-text="Nicaragua">Nicaragua</option>
+                                  <option value="NL"  data-code="+31" data-text="Netherlands">Netherlands</option>
+                                  <option value="NO"  data-code="+47" data-text="Norway">Norway</option>
+                                  <option value="NA"  data-code="+264" data-text="Namibia">Namibia</option>
+                                  <option value="VU"  data-code="+678" data-text="Vanuatu">Vanuatu</option>
+                                  <option value="NC"  data-code="+687" data-text="New Caledonia">New Caledonia</option>
+                                  <option value="NE"  data-code="+227" data-text="Niger">Niger</option>
+                                  <option value="NF"  data-code="" data-text="Norfolk Island">Norfolk Island</option>
+                                  <option value="NG"  data-code="+234" data-text="Nigeria">Nigeria</option>
+                                  <option value="NZ"  data-code="+64" data-text="New Zealand">New Zealand</option>
+                                  <option value="NP"  data-code="+977" data-text="Nepal">Nepal</option>
+                                  <option value="NR"  data-code="+674" data-text="Nauru">Nauru</option>
+                                  <option value="NU"  data-code="+683" data-text="Niue">Niue</option>
+                                  <option value="CK"  data-code="+682" data-text="Cook Islands">Cook Islands</option>
+                                  <option value="XK"  data-code="+381" data-text="Kosovo">Kosovo</option>
+                                  <option value="CI"  data-code="" data-text="Ivory Coast">Ivory Coast</option>
+                                  <option value="CO"  data-code="+57" data-text="Colombia">Colombia</option>
+                                  <option value="CN"  data-code="+86" data-text="China">China</option>
+                                  <option value="CM"  data-code="+237" data-text="Cameroon">Cameroon</option>
+                                  <option value="CL"  data-code="+56" data-text="Chile">Chile</option>
+                                  <option value="CC"  data-code="" data-text="Cocos Islands">Cocos Islands</option>
+                                  <option value="CG"  data-code="" data-text="Republic of the Congo">Republic of the Congo</option>
+                                  <option value="CF"  data-code="+236" data-text="Central African Republic">Central African Republic</option>
+                                  <option value="CD"  data-code="" data-text="Democratic Republic of the Congo">Democratic Republic of the Congo</option>
+                                  <option value="CZ"  data-code="+420" data-text="Czech Republic">Czech Republic</option>
+                                  <option value="CY"  data-code="+357" data-text="Cyprus">Cyprus</option>
+                                  <option value="CX"  data-code="+61" data-text="Christmas Island">Christmas Island</option>
+                                  <option value="CR"  data-code="+506" data-text="Costa Rica">Costa Rica</option>
+                                  <option value="CW"  data-code="" data-text="Curacao">Curacao</option>
+                                  <option value="CV"  data-code="+238" data-text="Cape Verde">Cape Verde</option>
+                                  <option value="CU"  data-code="+53" data-text="Cuba">Cuba</option>
+                                  <option value="SZ"  data-code="+268" data-text="Swaziland">Swaziland</option>
+                                  <option value="SY"  data-code="" data-text="Syria">Syria</option>
+                                  <option value="SX"  data-code="" data-text="Sint Maarten">Sint Maarten</option>
+                                  <option value="KG"  data-code="+996" data-text="Kyrgyzstan">Kyrgyzstan</option>
+                                  <option value="KE"  data-code="+254" data-text="Kenya">Kenya</option>
+                                  <option value="SS"  data-code="" data-text="South Sudan">South Sudan</option>
+                                  <option value="SR"  data-code="+597" data-text="Suriname">Suriname</option>
+                                  <option value="KI"  data-code="+686" data-text="Kiribati">Kiribati</option>
+                                  <option value="KH"  data-code="+855" data-text="Cambodia">Cambodia</option>
+                                  <option value="KN"  data-code="+1869" data-text="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                  <option value="KM"  data-code="+269" data-text="Comoros">Comoros</option>
+                                  <option value="ST"  data-code="+239" data-text="Sao Tome and Principe">Sao Tome and Principe</option>
+                                  <option value="SK"  data-code="+421" data-text="Slovakia">Slovakia</option>
+                                  <option value="KR"  data-code="+82" data-text="South Korea">South Korea</option>
+                                  <option value="SI"  data-code="+386" data-text="Slovenia">Slovenia</option>
+                                  <option value="KP"  data-code="+850" data-text="North Korea">North Korea</option>
+                                  <option value="KW"  data-code="+965" data-text="Kuwait">Kuwait</option>
+                                  <option value="SN"  data-code="+221" data-text="Senegal">Senegal</option>
+                                  <option value="SM"  data-code="+378" data-text="San Marino">San Marino</option>
+                                  <option value="SL"  data-code="+232" data-text="Sierra Leone">Sierra Leone</option>
+                                  <option value="SC"  data-code="+248" data-text="Seychelles">Seychelles</option>
+                                  <option value="KZ"  data-code="" data-text="Kazakhstan">Kazakhstan</option>
+                                  <option value="KY"  data-code="+1345" data-text="Cayman Islands">Cayman Islands</option>
+                                  <option value="SE"  data-code="+46" data-text="Sweden">Sweden</option>
+                                  <option value="SD"  data-code="+249" data-text="Sudan">Sudan</option>
+                                  <option value="DO"  data-code="+1809" data-text="Dominican Republic">Dominican Republic</option>
+                                  <option value="DM"  data-code="+1767" data-text="Dominica">Dominica</option>
+                                  <option value="DJ"  data-code="+253" data-text="Djibouti">Djibouti</option>
+                                  <option value="DK"  data-code="+45" data-text="Denmark">Denmark</option>
+                                  <option value="VG"  data-code="" data-text="British Virgin Islands">British Virgin Islands</option>
+                                  <option value="DE"  data-code="+49" data-text="Germany">Germany</option>
+                                  <option value="YE"  data-code="+967" data-text="Yemen">Yemen</option>
+                                  <option value="DZ"  data-code="+213" data-text="Algeria">Algeria</option>
+                                  <option value="UY"  data-code="+598" data-text="Uruguay">Uruguay</option>
+                                  <option value="YT"  data-code="+262" data-text="Mayotte">Mayotte</option>
+                                  <option value="UM"  data-code="" data-text="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                                  <option value="LB"  data-code="+961" data-text="Lebanon">Lebanon</option>
+                                  <option value="LC"  data-code="+1758" data-text="Saint Lucia">Saint Lucia</option>
+                                  <option value="LA"  data-code="" data-text="Laos">Laos</option>
+                                  <option value="TV"  data-code="+688" data-text="Tuvalu">Tuvalu</option>
+                                  <option value="TW"  data-code="" data-text="Taiwan">Taiwan</option>
+                                  <option value="TT"  data-code="+1868" data-text="Trinidad and Tobago">Trinidad and Tobago</option>
+                                  <option value="TR"  data-code="+90" data-text="Turkey">Turkey</option>
+                                  <option value="LK"  data-code="+94" data-text="Sri Lanka">Sri Lanka</option>
+                                  <option value="LI"  data-code="+423" data-text="Liechtenstein">Liechtenstein</option>
+                                  <option value="LV"  data-code="+371" data-text="Latvia">Latvia</option>
+                                  <option value="TO"  data-code="+676" data-text="Tonga">Tonga</option>
+                                  <option value="LT"  data-code="+370" data-text="Lithuania">Lithuania</option>
+                                  <option value="LU"  data-code="+352" data-text="Luxembourg">Luxembourg</option>
+                                  <option value="LR"  data-code="+231" data-text="Liberia">Liberia</option>
+                                  <option value="LS"  data-code="+266" data-text="Lesotho">Lesotho</option>
+                                  <option value="TH"  data-code="+66" data-text="Thailand">Thailand</option>
+                                  <option value="TF"  data-code="" data-text="French Southern Territories">French Southern Territories</option>
+                                  <option value="TG"  data-code="+228" data-text="Togo">Togo</option>
+                                  <option value="TD"  data-code="+235" data-text="Chad">Chad</option>
+                                  <option value="TC"  data-code="+1649" data-text="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                                  <option value="LY"  data-code="" data-text="Libya">Libya</option>
+                                  <option value="VA"  data-code="" data-text="Vatican">Vatican</option>
+                                  <option value="VC"  data-code="+1784" data-text="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                                  <option value="AD"  data-code="+376" data-text="Andorra">Andorra</option>
+                                  <option value="AG"  data-code="+1268" data-text="Antigua and Barbuda">Antigua and Barbuda</option>
+                                  <option value="AF"  data-code="+93" data-text="Afghanistan">Afghanistan</option>
+                                  <option value="AI"  data-code="+1264" data-text="Anguilla">Anguilla</option>
+                                  <option value="VI"  data-code="" data-text="U.S. Virgin Islands">U.S. Virgin Islands</option>
+                                  <option value="IS"  data-code="+354" data-text="Iceland">Iceland</option>
+                                  <option value="IR"  data-code="" data-text="Iran">Iran</option>
+                                  <option value="AM"  data-code="+374" data-text="Armenia">Armenia</option>
+                                  <option value="AL"  data-code="+355" data-text="Albania">Albania</option>
+                                  <option value="AO"  data-code="+244" data-text="Angola">Angola</option>
+                                  <option value="AQ"  data-code="+672" data-text="Antarctica">Antarctica</option>
+                                  <option value="AS"  data-code="+1684" data-text="American Samoa">American Samoa</option>
+                                  <option value="AR"  data-code="+54" data-text="Argentina">Argentina</option>
+                                  <option value="AT"  data-code="+43" data-text="Austria">Austria</option>
+                                  <option value="AW"  data-code="+297" data-text="Aruba">Aruba</option>
+                                  <option value="AX"  data-code="" data-text="Aland Islands">Aland Islands</option>
+                                  <option value="AZ"  data-code="+994" data-text="Azerbaijan">Azerbaijan</option>
+                                  <option value="IE"  data-code="+353" data-text="Ireland">Ireland</option>
+                                  <option value="ID"  data-code="+62" data-text="Indonesia">Indonesia</option>
+                                  <option value="UA"  data-code="+380" data-text="Ukraine">Ukraine</option>
+                                  <option value="QA"  data-code="+974" data-text="Qatar">Qatar</option>
+                                  <option value="MZ"  data-code="+258" data-text="Mozambique">Mozambique</option>
+                              </select>
+            </div>
+            <div class="col-md-2 col-xs-2 p-l-0 p-r-0">
+                <label class="p-l-4 floating-label"></label>
+                <input type="tel" id="drop_cval" name="phone_code" readonly="" value="" required=""> 
+            </div>
+            <div class="col-md-7 col-xs-7 p-l-0">
+                <label class="p-l-4 floating-label">Phone Number *</label>
+                <input type="tel" name="phone_number" onkeypress="return isNumberKey(event)" maxlength="15" required=""> 
+            </div>
+        </div>                    
+
+        <div class="row">
+            <div class="col-md-12">
+                <label for="message" class="floating-label">Message</label>
+                <textarea rows="2" name="message" maxlength="200"></textarea>
+            </div>
+        </div>
+
+        <div class="g-recaptcha" data-sitekey="6LfIij8UAAAAANm0O5yM6lYgA76ImQZUJztx90lC"></div>
+                  <br/>
+
+        <!-- <div class="row">
+            <div class="col-md-6">
+                <img src="captcha/captcha1580811286.png" />
+            </div> 
+            <div class="col-md-6">
+                <label class="p-l-4 floating-label">Captcha *</label>
+                <input type="text" name="result" onkeypress="return isNumberKey(event)" maxlength="15" required="" />
+            </div>
+        </div> -->
+
+        <!-- <input type="hidden" name="code" value="" /> -->
+        <input type="hidden" name="type" id="" value="Drop us a Query">
+        <input type="hidden" name="page_url" value="https://mindmajix.com/python-for-data-science-tutorial-for-beginners">
+        <input type="hidden" name="subject" value="Blog">
+        <input type="hidden" name="ip_address" value="197.232.29.98">
+
+        <button type="submit" class="btn-60 btn bg-red waves-effect waves-light f-s-14">Contact Us</button>
+
+      </form>
+
+  </div>
+</div>
+            <div class="side-bar m-t-20">
+              <h4 class="sidebar-heading m-b-30 m-l-10 m-r-10">Categories</h4>
+              <ul class="cat-list">
+                                  <li class="m-b-10"><a href="https://mindmajix.com/sql-server"><i class="fa fa-caret-right"></i>SQL SERVER</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/unix-shell-scripting"><i class="fa fa-caret-right"></i>Unix Shell Scripting</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/tableau"><i class="fa fa-caret-right"></i>Tableau</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/oracle-goldengate"><i class="fa fa-caret-right"></i>Oracle GoldenGate</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/oracle-dba"><i class="fa fa-caret-right"></i>Oracle DBA</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/teradata"><i class="fa fa-caret-right"></i>TERADATA</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/peoplesoft-core-hrms"><i class="fa fa-caret-right"></i>Peoplesoft Core HRMS</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/anthillpro"><i class="fa fa-caret-right"></i>AnthillPro</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/sap-hr"><i class="fa fa-caret-right"></i>SAP HR</a></li>   
+                                  <li class="m-b-10"><a href="https://mindmajix.com/cloveretl"><i class="fa fa-caret-right"></i>CloverETL</a></li>   
+                    
+              </ul>
+              <a href="https://mindmajix.com/blog-category" class="btn-60 btn bg-red f-s-14 m-t-50 m-b-20">VIEW MORE</a>
+            </div>
+
+            <div class="side-bar related-courses m-t-30">
+              <h4 class="sidebar-heading m-b-20">Popular Courses in 2019</h4>
+
+                                <div class="popular-course list-line">
+                      
+                      <div class="popular-course-info">
+                          <h4><a href="https://mindmajix.com/vmware-training">VMware Training</a></h4>
+                          <span class="stars" data-rating="5" data-num-stars="5" ></span>
+                          <div class="learner">
+                            <span> <i class="fa fa-smile-o"></i> 3402 Learners </span>
+                          </div>
+                      </div>
+                </div>
+                                <div class="popular-course list-line">
+                      
+                      <div class="popular-course-info">
+                          <h4><a href="https://mindmajix.com/selenium-training">Selenium Training</a></h4>
+                          <span class="stars" data-rating="5" data-num-stars="5" ></span>
+                          <div class="learner">
+                            <span> <i class="fa fa-smile-o"></i> 4812 Learners </span>
+                          </div>
+                      </div>
+                </div>
+                                <div class="popular-course list-line">
+                      
+                      <div class="popular-course-info">
+                          <h4><a href="https://mindmajix.com/artificial-intelligence-training">Artificial Intelligence (AI) Training</a></h4>
+                          <span class="stars" data-rating="5" data-num-stars="5" ></span>
+                          <div class="learner">
+                            <span> <i class="fa fa-smile-o"></i> 289 Learners </span>
+                          </div>
+                      </div>
+                </div>
+                             </div>
+
+             <div class="side-bar m-t-30 m-b-30 col hidden-xs hidden-sm" id="related_posts">
+                <h4 class="sidebar-heading m-b-30">Related Articles</h4>
+                              </div>
+
+            
+
+
+          </div>
+
+        </div>
+      </div>
+      
+    </section>    
+
+    <!-- End Content -->
+
+    <div class="search-block">
+  <div class="close-popup">
+    <img class="close-icon" alt="Close" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAABkAQMAAACVTr9NAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABpJREFUeNrtwQENAAAAwqD3T20PBxQAAMCPAQzkAAECRwQ7AAAAAElFTkSuQmCC">
+  </div>
+  <div class="table-align">
+    <div class="cell-view">
+      <form id="searchform" action="https://mindmajix.com/" onsubmit="return search_text()">
+        <div class="container-menu">
+          <div class="input-field">
+            <input name="s" placeholder="SEARCH" id="s"> 
+            <span class="clear-input">
+              <img class="close_sm" alt="Close" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAABkAQMAAACVTr9NAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABpJREFUeNrtwQENAAAAwqD3T20PBxQAAMCPAQzkAAECRwQ7AAAAAElFTkSuQmCC">
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-top-wrapper ">
+  <span class="scroll-top-inner">
+    <i class="fa fa-2x fa-angle-up"></i>
+  </span>
+</div>
+
+
+<footer id="footer">
+      <div class="footer-wrapper">
+        <div class="parallex-overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="footer-container">
+                <div id="text-3" class="widget widget_text">     
+                  <div class="textwidget justify"><img alt="Mindmajix" src="https://cdn.mindmajix.com/asset/images/logo.png">
+                    <br><br>
+                    Mindmajix - Online global training platform connecting individuals with the best trainers around the globe. With the diverse range of courses, Training Materials, Resume formats and On Job Support, we have it all covered to get into IT Career. Instructor Led Training - Made easy.
+                  </div>
+                </div>
+
+                <div id="st-social-wgt-2" class="widget st-social-wgt">
+                  <div class="st-social">
+                    <ul class="list-inline">
+                      <li><a class="fa fa-facebook" href="https://www.facebook.com/MindMajixTechnologies" rel="noopener" title="facebook" target="_blank"></a></li>
+                      <li><a class="fa fa-twitter" href="https://twitter.com/mindmajix" title="twitter" rel="noopener" target="_blank"></a></li>
+                      <li><a class="fa fa-linkedin" href="https://www.linkedin.com/company/mindmajix-technologies-pvt-ltd-" rel="noopener" title="linkedin" target="_blank"></a></li>
+                      <li><a class="fa fa-youtube" href="https://www.youtube.com/c/mindmajix" rel="noopener" title="youtube" target="_blank"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-2 col-sm-6 col-xs-12">
+              <div class="footer-container">    
+                <div id="recent-posts-2" class="widget widget_recent_entries">    
+                  <h3 class="widget-title"><span>Company</span></h3>    
+                  <ul>
+                    <li><a href="https://mindmajix.com/">Home</a></li>
+                    <li><a href="https://mindmajix.com/about">About Us</a></li>
+                    <li><a href="https://mindmajix.com/all-courses">Courses</a></li>
+                    <li><a href="https://mindmajix.com/sample-resumes">Sample Resumes</a></li>
+                    <li><a href="https://mindmajix.com/blog">Blog</a></li>
+                    <li><a href="https://mindmajix.com/on-job-support">On Job Support</a></li>
+                    <li><a href="https://mindmajix.com/contact">Contact Us</a></li>
+                    <li><a href="https://mindmajix.com/reviews">Reviews</a></li>
+                    <li><a href="https://mindmajix.com/write-for-us">Write for us</a></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="footer-container">    
+                <div id="recent-posts-2" class="widget widget_recent_entries">    
+                  <h3 class="widget-title"><span>Trending Courses</span></h3>    
+                  <ul>
+                    <li><a href="https://mindmajix.com/tableau-training">Tableau Training</a></li>
+                    <li><a href="https://mindmajix.com/oracle-dba-training">Oracle DBA Training</a></li>
+                    <li><a href="https://mindmajix.com/microsoft-azure-training">Azure Training</a></li>
+                    <li><a href="https://mindmajix.com/power-bi-training">Power BI Training</a></li>
+                    <li><a href="https://mindmajix.com/docker-training">Docker Training</a></li>
+                    <li><a href="https://mindmajix.com/jboss-training">JBoss Training</a></li>
+                    <li><a href="https://mindmajix.com/informatica-training">Informatica Training</a></li>
+                    <li><a href="https://mindmajix.com/apache-cassandra-training">Cassandra Training</a></li>
+                    <li><a href="https://mindmajix.com/blockchain-training">Blockchain Training</a></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="footer-container">
+                <div id="text-7" class="widget widget_text">
+                  <h3 class="widget-title"><span>Contact info</span></h3>      
+                </div>
+                <div id="st-contact-wgt-4" class="widget st-contact-wgt">   
+                  <ul>
+                    <!-- <script type="application/ld+json">
+                      {
+                        "@context": "http://schema.org",
+                        "@type": "LocalBusiness",
+                        "name": "Mindmajix Technologies INC",
+                                          "priceRange" : "$",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "244 5th Ave Suite 1222",
+                          "addressLocality": "New York",
+                          "addressRegion": "NY",
+                          "postalCode": "10001"
+                        },
+                        "email": "info@mindmajix.com",
+                        "telePhone": "+1 917 456 8403",
+                        "url": "https://mindmajix.com",
+                        "image": "https://cdn.mindmajix.com/images/mindmajix-logo-5.png"
+                      }
+                    </script>
+
+                    <script type="application/ld+json">
+                      {
+                        "@context": "http://schema.org",
+                        "@type": "LocalBusiness",
+                        "name": "Mindmajix Technologies INC",
+                                          "priceRange" : "$",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "#811, 10th A Main, Suite No.506, 1st Floor, Indira Nagar",
+                          "addressLocality": "Bangalore",
+                          "addressRegion": "Karnataka",
+                          "postalCode": "560038"
+                        },
+                        "email": "info@mindmajix.com",
+                        "telePhone": "+91 905 240 3388",
+                        "url": "https://mindmajix.com",
+                        "image": "https://cdn.mindmajix.com/images/mindmajix-logo-5.png"
+                      }
+                    </script> -->
+                    <li><i class="fa fa-map-marker color-theme"></i> 244 Fifth Avenue, Suite 1222 
+                      New York(NY) 
+                      United States (US) - 10001
+                    </li>
+                    <li><i class="fa fa-phone color-theme"></i> USA : +1 917 456 8403</li>
+                    <li><i class="fa fa-envelope-o color-theme"></i> <a href="mailto:info@mindmajix.com">info@mindmajix.com</a></li>
+                  </ul>
+
+                  <ul>
+                    
+                    <li><i class="fa fa-map-marker color-theme"></i>  91Springboard, 512/10, Service Lane, Outer Ring Road, Mahadevapura, Next to More Megastore, Bangalore - 560048, Karnataka
+                    </li>
+                    <li><i class="fa fa-phone color-theme"></i> India : +91 905 240 3388</li>
+                    <li><i class="fa fa-envelope-o color-theme"></i> <a href="mailto:info@mindmajix.com">info@mindmajix.com</a></li>
+                  </ul>
+                </div>
+               
+
+              </div>
+            </div>
+          </div>
+
+      </div>
+    
+    </div>
+
+    <div id="copyright-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div>Copyright © 2020   Mindmajix Technologies Inc. All Rights Reserved</div>          
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <nav id="secondary-nav" class="text-right">
+              <div class="menu-footer-menu-container">
+                <ul id="footer-menu" class="footer-menu list-inline">
+                  <li><a href="https://mindmajix.com/terms-of-service-and-privacy-policy">Privacy Policy</a></li>
+                  <li><a href="https://mindmajix.com/terms-of-service-and-privacy-policy">Terms of use</a></li>                  
+                  <li><a href="https://mindmajix.com/terms-of-service-and-privacy-policy">Refund Policy</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="stickyfooter" id="stickyfooter">
+    
+      <div class="container hidden-xs">
+        <div class="col-md-6 col-sm-8 p-0 text-left">
+          <ul>
+            <li class="f-w-500"><a href="javascript:void(0);" class="f-s-13"> <i class="fa fa-phone"></i> Call us on : USA - +1 972 427 3027 | IND - +91 9246 333 245</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 p-0 col-sm-4 text-right">
+          <ul>
+            <li class="f-w-500 p-r-50"><a href="javascript:void(0);" class="f-s-13" data-toggle="modal" data-target="#free_demo" id="form_button" data-text="Leave a Message" data-message="Message"> <i class="fa fa-envelope-o"></i> Drop us a Query</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container visible-xs">
+        <div class="col-xs-6 p-0 text-left">
+          <ul>
+            <li class="f-w-500"><a href="javascript:void(0);"  data-toggle="modal" class="f-s-14" data-target="#call_us"> <i class="fa fa-phone"></i> Call us on </a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 p-0 text-right">
+          <ul>
+            <li class="f-w-500 p-r-50"><a href="javascript:void(0);" data-toggle="modal" data-target="#free_demo" id="form_button" data-text="Leave a Message" data-message="Message" class="f-s-14"> <i class="fa fa-envelope-o"></i> Drop us a Query</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sticky_footer">
+    
+      <div class="container hidden-xs">
+        <div class="col-md-6 col-sm-8 p-0 text-left">
+          <ul>
+            <li class="f-w-500"><a href="javascript:void(0);" class="f-s-13"> <i class="fa fa-phone"></i> Call us on : USA - +1 972 427 3027 | IND - +91 9246 333 245</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 p-0 col-sm-4 text-right">
+          <ul>
+            <li class="f-w-500 p-r-50"><a href="javascript:void(0);" class="f-s-13" data-toggle="modal" data-target="#free_demo" id="form_button" data-text="Leave a Message" data-message="Message"> <i class="fa fa-envelope-o"></i> Drop us a Query</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container visible-xs">
+        <div class="col-xs-6 p-0 text-left">
+          <ul>
+            <li class="f-w-500"><a href="javascript:void(0);" class="f-s-14"  data-toggle="modal" data-target="#call_us"> <i class="fa fa-phone"></i> Call us on </a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 p-0 text-right">
+          <ul>
+            <li class="f-w-500 p-r-50"><a href="javascript:void(0);" class="f-s-14" data-toggle="modal" data-target="#free_demo" id="form_button" data-text="Leave a Message" data-message="Message"> <i class="fa fa-envelope-o"></i> Drop us a Query</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="clearfix"></div>
+        
+  </footer>
+
+  <!-- Hotjar Tracking Code for https://mindmajix.com -->
+<!-- Free Demo Popup -->
+
+<div class="modal modal-new-login modal-wide fade" id="free_demo" tabindex="-1" role="dialog" aria-labelledby="freedemo" data-target="free_demo" aria-hidden="true" data-dismiss="modal">
+	<div class="modal-dialog newloginmodal centered-quiz" role="document">
+		<div class="modal-content loginmodal">
+          <button type="button" class="close modalclose onclicktab ga_signup_info" id="signin_signup_cancel" data-dismiss="modal" data-gacat="Signup popup" data-gaact="Close" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <div class="imageleftg_box" id="all_cour_login">
+            <div class="text">
+              <div class=""><span>Up-Skill your Career with the world's</span> effective online<span> learning platform</span></div>
+              <div class=""><span>Trusted by</span> 3,50,850+ <span>Satisfied Learners</span> & 123+ <span>Corporates</span></div>
+            </div>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-pane fade in active">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 freedemo">
+                <div class="label"><span id="labelTxt">Join for a Free Demo</span> <span class="bot_border"></span></div>
+                
+                <form action="https://mindmajix.com/form_insert" name="form_ins" method="POST" class="m-t-30">
+
+                  <div class="row m-t-5" id="fname">
+                      <div class="col-md-12">
+                          <label>Full Name *</label>
+                          <input type="text" name="fullname" required /> 
+                      </div>
+                  </div>
+
+                  <div class="row m-t-5" id="fmail">
+                      <div class="col-md-12">
+                          <label>E-mail Address *</label>
+                          <input type="email" name="email" required /> 
+                      </div>
+                  </div>
+
+                  <div class="row m-t-5" id="fmail">
+                      <div class="col-md-12">
+                          <label>Course Name *</label>
+                          <input type="text" name="course_name" required /> 
+                      </div>
+                  </div>
+
+                  <span id="error_msg" class="color-theme"></span>
+
+                  <div class="row m-t-5" id="fphone">
+                    <div class="col-md-3 col-xs-3 p-r-0 country_code">
+                          <select id="country_code" name="c_code" class="form-control">
+                          									<option value="US"  data-code="+1" data-text="United States">United States</option>
+		                  									<option value="AU"  data-code="+61" data-text="Australia">Australia</option>
+		                  									<option value="IN"  data-code="+91" data-text="India">India</option>
+		                  									<option value="GB"  data-code="+44" data-text="United Kingdom">United Kingdom</option>
+		                  									<option value="CA"  data-code="+1" data-text="Canada">Canada</option>
+		                  									<option value="SA"  data-code="+966" data-text="Saudi Arabia">Saudi Arabia</option>
+		                  									<option value="AE"  data-code="+971" data-text="United Arab Emirates">United Arab Emirates</option>
+		                  									<option value="SG"  data-code="+65" data-text="Singapore">Singapore</option>
+		                  									<option value="CH"  data-code="+41" data-text="Switzerland">Switzerland</option>
+		                  									<option value="ZA"  data-code="+27" data-text="South Africa">South Africa</option>
+		                  									<option value="BD"  data-code="+880" data-text="Bangladesh">Bangladesh</option>
+		                  									<option value="BE"  data-code="+32" data-text="Belgium">Belgium</option>
+		                  									<option value="BF"  data-code="+226" data-text="Burkina Faso">Burkina Faso</option>
+		                  									<option value="BG"  data-code="+359" data-text="Bulgaria">Bulgaria</option>
+		                  									<option value="BA"  data-code="+387" data-text="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+		                  									<option value="BB"  data-code="+1246" data-text="Barbados">Barbados</option>
+		                  									<option value="WF"  data-code="+681" data-text="Wallis and Futuna">Wallis and Futuna</option>
+		                  									<option value="BL"  data-code="+590" data-text="Saint Barthelemy">Saint Barthelemy</option>
+		                  									<option value="BM"  data-code="+1441" data-text="Bermuda">Bermuda</option>
+		                  									<option value="BN"  data-code="+673" data-text="Brunei">Brunei</option>
+		                  									<option value="BO"  data-code="+591" data-text="Bolivia">Bolivia</option>
+		                  									<option value="BH"  data-code="+973" data-text="Bahrain">Bahrain</option>
+		                  									<option value="BI"  data-code="+257" data-text="Burundi">Burundi</option>
+		                  									<option value="BJ"  data-code="+229" data-text="Benin">Benin</option>
+		                  									<option value="BT"  data-code="+975" data-text="Bhutan">Bhutan</option>
+		                  									<option value="JM"  data-code="+1876" data-text="Jamaica">Jamaica</option>
+		                  									<option value="BV"  data-code="+55" data-text="Bouvet Island">Bouvet Island</option>
+		                  									<option value="BW"  data-code="+267" data-text="Botswana">Botswana</option>
+		                  									<option value="WS"  data-code="+685" data-text="Samoa">Samoa</option>
+		                  									<option value="BQ"  data-code="+599" data-text="Bonaire, Saint Eustatius and Saba ">Bonaire, Saint Eustatius and Saba </option>
+		                  									<option value="BR"  data-code="+55" data-text="Brazil">Brazil</option>
+		                  									<option value="BS"  data-code="+1242" data-text="Bahamas">Bahamas</option>
+		                  									<option value="JE"  data-code="+44" data-text="Jersey">Jersey</option>
+		                  									<option value="BY"  data-code="+375" data-text="Belarus">Belarus</option>
+		                  									<option value="BZ"  data-code="+501" data-text="Belize">Belize</option>
+		                  									<option value="RU"  data-code="+7" data-text="Russia">Russia</option>
+		                  									<option value="RW"  data-code="+250" data-text="Rwanda">Rwanda</option>
+		                  									<option value="RS"  data-code="+381" data-text="Serbia">Serbia</option>
+		                  									<option value="TL"  data-code="" data-text="East Timor">East Timor</option>
+		                  									<option value="RE"  data-code="" data-text="Reunion">Reunion</option>
+		                  									<option value="TM"  data-code="+993" data-text="Turkmenistan">Turkmenistan</option>
+		                  									<option value="TJ"  data-code="+992" data-text="Tajikistan">Tajikistan</option>
+		                  									<option value="RO"  data-code="+40" data-text="Romania">Romania</option>
+		                  									<option value="TK"  data-code="+690" data-text="Tokelau">Tokelau</option>
+		                  									<option value="GW"  data-code="+245" data-text="Guinea-Bissau">Guinea-Bissau</option>
+		                  									<option value="GU"  data-code="+1671" data-text="Guam">Guam</option>
+		                  									<option value="GT"  data-code="+502" data-text="Guatemala">Guatemala</option>
+		                  									<option value="GS"  data-code="" data-text="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+		                  									<option value="GR"  data-code="+30" data-text="Greece">Greece</option>
+		                  									<option value="GQ"  data-code="+240" data-text="Equatorial Guinea">Equatorial Guinea</option>
+		                  									<option value="GP"  data-code="" data-text="Guadeloupe">Guadeloupe</option>
+		                  									<option value="JP"  data-code="+81" data-text="Japan">Japan</option>
+		                  									<option value="GY"  data-code="+592" data-text="Guyana">Guyana</option>
+		                  									<option value="GG"  data-code="" data-text="Guernsey">Guernsey</option>
+		                  									<option value="GF"  data-code="" data-text="French Guiana">French Guiana</option>
+		                  									<option value="GE"  data-code="+995" data-text="Georgia">Georgia</option>
+		                  									<option value="GD"  data-code="+1473" data-text="Grenada">Grenada</option>
+		                  									<option value="GA"  data-code="+241" data-text="Gabon">Gabon</option>
+		                  									<option value="SV"  data-code="+503" data-text="El Salvador">El Salvador</option>
+		                  									<option value="GN"  data-code="+224" data-text="Guinea">Guinea</option>
+		                  									<option value="GM"  data-code="+220" data-text="Gambia">Gambia</option>
+		                  									<option value="GL"  data-code="+299" data-text="Greenland">Greenland</option>
+		                  									<option value="GI"  data-code="+350" data-text="Gibraltar">Gibraltar</option>
+		                  									<option value="GH"  data-code="+233" data-text="Ghana">Ghana</option>
+		                  									<option value="OM"  data-code="+968" data-text="Oman">Oman</option>
+		                  									<option value="TN"  data-code="+216" data-text="Tunisia">Tunisia</option>
+		                  									<option value="JO"  data-code="+962" data-text="Jordan">Jordan</option>
+		                  									<option value="HR"  data-code="+385" data-text="Croatia">Croatia</option>
+		                  									<option value="HT"  data-code="+509" data-text="Haiti">Haiti</option>
+		                  									<option value="HU"  data-code="+36" data-text="Hungary">Hungary</option>
+		                  									<option value="HK"  data-code="+852" data-text="Hong Kong">Hong Kong</option>
+		                  									<option value="HN"  data-code="+504" data-text="Honduras">Honduras</option>
+		                  									<option value="HM"  data-code="" data-text="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+		                  									<option value="VE"  data-code="+58" data-text="Venezuela">Venezuela</option>
+		                  									<option value="PR"  data-code="+1" data-text="Puerto Rico">Puerto Rico</option>
+		                  									<option value="PS"  data-code="" data-text="Palestinian Territory">Palestinian Territory</option>
+		                  									<option value="PW"  data-code="+680" data-text="Palau">Palau</option>
+		                  									<option value="PT"  data-code="+351" data-text="Portugal">Portugal</option>
+		                  									<option value="SJ"  data-code="" data-text="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+		                  									<option value="PY"  data-code="+595" data-text="Paraguay">Paraguay</option>
+		                  									<option value="IQ"  data-code="+964" data-text="Iraq">Iraq</option>
+		                  									<option value="PA"  data-code="+507" data-text="Panama">Panama</option>
+		                  									<option value="PF"  data-code="+689" data-text="French Polynesia">French Polynesia</option>
+		                  									<option value="PG"  data-code="+675" data-text="Papua New Guinea">Papua New Guinea</option>
+		                  									<option value="PE"  data-code="+51" data-text="Peru">Peru</option>
+		                  									<option value="PK"  data-code="+92" data-text="Pakistan">Pakistan</option>
+		                  									<option value="PH"  data-code="+63" data-text="Philippines">Philippines</option>
+		                  									<option value="PN"  data-code="+870" data-text="Pitcairn">Pitcairn</option>
+		                  									<option value="PL"  data-code="+48" data-text="Poland">Poland</option>
+		                  									<option value="PM"  data-code="+508" data-text="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+		                  									<option value="ZM"  data-code="+260" data-text="Zambia">Zambia</option>
+		                  									<option value="EH"  data-code="" data-text="Western Sahara">Western Sahara</option>
+		                  									<option value="EE"  data-code="+372" data-text="Estonia">Estonia</option>
+		                  									<option value="EG"  data-code="+20" data-text="Egypt">Egypt</option>
+		                  									<option value="EC"  data-code="+593" data-text="Ecuador">Ecuador</option>
+		                  									<option value="IT"  data-code="+39" data-text="Italy">Italy</option>
+		                  									<option value="VN"  data-code="+84" data-text="Vietnam">Vietnam</option>
+		                  									<option value="SB"  data-code="+677" data-text="Solomon Islands">Solomon Islands</option>
+		                  									<option value="ET"  data-code="+251" data-text="Ethiopia">Ethiopia</option>
+		                  									<option value="SO"  data-code="+252" data-text="Somalia">Somalia</option>
+		                  									<option value="ZW"  data-code="+263" data-text="Zimbabwe">Zimbabwe</option>
+		                  									<option value="ES"  data-code="+34" data-text="Spain">Spain</option>
+		                  									<option value="ER"  data-code="+291" data-text="Eritrea">Eritrea</option>
+		                  									<option value="ME"  data-code="+382" data-text="Montenegro">Montenegro</option>
+		                  									<option value="MD"  data-code="" data-text="Moldova">Moldova</option>
+		                  									<option value="MG"  data-code="+261" data-text="Madagascar">Madagascar</option>
+		                  									<option value="MF"  data-code="+1599" data-text="Saint Martin">Saint Martin</option>
+		                  									<option value="MA"  data-code="+212" data-text="Morocco">Morocco</option>
+		                  									<option value="MC"  data-code="+377" data-text="Monaco">Monaco</option>
+		                  									<option value="UZ"  data-code="+998" data-text="Uzbekistan">Uzbekistan</option>
+		                  									<option value="MM"  data-code="+95" data-text="Myanmar">Myanmar</option>
+		                  									<option value="ML"  data-code="+223" data-text="Mali">Mali</option>
+		                  									<option value="MO"  data-code="" data-text="Macao">Macao</option>
+		                  									<option value="MN"  data-code="+976" data-text="Mongolia">Mongolia</option>
+		                  									<option value="MH"  data-code="+692" data-text="Marshall Islands">Marshall Islands</option>
+		                  									<option value="MK"  data-code="" data-text="Macedonia">Macedonia</option>
+		                  									<option value="MU"  data-code="+230" data-text="Mauritius">Mauritius</option>
+		                  									<option value="MT"  data-code="+356" data-text="Malta">Malta</option>
+		                  									<option value="MW"  data-code="+265" data-text="Malawi">Malawi</option>
+		                  									<option value="MV"  data-code="+960" data-text="Maldives">Maldives</option>
+		                  									<option value="MQ"  data-code="" data-text="Martinique">Martinique</option>
+		                  									<option value="MP"  data-code="+1670" data-text="Northern Mariana Islands">Northern Mariana Islands</option>
+		                  									<option value="MS"  data-code="+1664" data-text="Montserrat">Montserrat</option>
+		                  									<option value="MR"  data-code="+222" data-text="Mauritania">Mauritania</option>
+		                  									<option value="IM"  data-code="+44" data-text="Isle of Man">Isle of Man</option>
+		                  									<option value="UG"  data-code="+256" data-text="Uganda">Uganda</option>
+		                  									<option value="TZ"  data-code="" data-text="Tanzania">Tanzania</option>
+		                  									<option value="MY"  data-code="+60" data-text="Malaysia">Malaysia</option>
+		                  									<option value="MX"  data-code="+52" data-text="Mexico">Mexico</option>
+		                  									<option value="IL"  data-code="+972" data-text="Israel">Israel</option>
+		                  									<option value="FR"  data-code="+33" data-text="France">France</option>
+		                  									<option value="IO"  data-code="" data-text="British Indian Ocean Territory">British Indian Ocean Territory</option>
+		                  									<option value="SH"  data-code="+290" data-text="Saint Helena">Saint Helena</option>
+		                  									<option value="FI"  data-code="+358" data-text="Finland">Finland</option>
+		                  									<option value="FJ"  data-code="+679" data-text="Fiji">Fiji</option>
+		                  									<option value="FK"  data-code="" data-text="Falkland Islands">Falkland Islands</option>
+		                  									<option value="FM"  data-code="" data-text="Micronesia">Micronesia</option>
+		                  									<option value="FO"  data-code="+298" data-text="Faroe Islands">Faroe Islands</option>
+		                  									<option value="NI"  data-code="+505" data-text="Nicaragua">Nicaragua</option>
+		                  									<option value="NL"  data-code="+31" data-text="Netherlands">Netherlands</option>
+		                  									<option value="NO"  data-code="+47" data-text="Norway">Norway</option>
+		                  									<option value="NA"  data-code="+264" data-text="Namibia">Namibia</option>
+		                  									<option value="VU"  data-code="+678" data-text="Vanuatu">Vanuatu</option>
+		                  									<option value="NC"  data-code="+687" data-text="New Caledonia">New Caledonia</option>
+		                  									<option value="NE"  data-code="+227" data-text="Niger">Niger</option>
+		                  									<option value="NF"  data-code="" data-text="Norfolk Island">Norfolk Island</option>
+		                  									<option value="NG"  data-code="+234" data-text="Nigeria">Nigeria</option>
+		                  									<option value="NZ"  data-code="+64" data-text="New Zealand">New Zealand</option>
+		                  									<option value="NP"  data-code="+977" data-text="Nepal">Nepal</option>
+		                  									<option value="NR"  data-code="+674" data-text="Nauru">Nauru</option>
+		                  									<option value="NU"  data-code="+683" data-text="Niue">Niue</option>
+		                  									<option value="CK"  data-code="+682" data-text="Cook Islands">Cook Islands</option>
+		                  									<option value="XK"  data-code="+381" data-text="Kosovo">Kosovo</option>
+		                  									<option value="CI"  data-code="" data-text="Ivory Coast">Ivory Coast</option>
+		                  									<option value="CO"  data-code="+57" data-text="Colombia">Colombia</option>
+		                  									<option value="CN"  data-code="+86" data-text="China">China</option>
+		                  									<option value="CM"  data-code="+237" data-text="Cameroon">Cameroon</option>
+		                  									<option value="CL"  data-code="+56" data-text="Chile">Chile</option>
+		                  									<option value="CC"  data-code="" data-text="Cocos Islands">Cocos Islands</option>
+		                  									<option value="CG"  data-code="" data-text="Republic of the Congo">Republic of the Congo</option>
+		                  									<option value="CF"  data-code="+236" data-text="Central African Republic">Central African Republic</option>
+		                  									<option value="CD"  data-code="" data-text="Democratic Republic of the Congo">Democratic Republic of the Congo</option>
+		                  									<option value="CZ"  data-code="+420" data-text="Czech Republic">Czech Republic</option>
+		                  									<option value="CY"  data-code="+357" data-text="Cyprus">Cyprus</option>
+		                  									<option value="CX"  data-code="+61" data-text="Christmas Island">Christmas Island</option>
+		                  									<option value="CR"  data-code="+506" data-text="Costa Rica">Costa Rica</option>
+		                  									<option value="CW"  data-code="" data-text="Curacao">Curacao</option>
+		                  									<option value="CV"  data-code="+238" data-text="Cape Verde">Cape Verde</option>
+		                  									<option value="CU"  data-code="+53" data-text="Cuba">Cuba</option>
+		                  									<option value="SZ"  data-code="+268" data-text="Swaziland">Swaziland</option>
+		                  									<option value="SY"  data-code="" data-text="Syria">Syria</option>
+		                  									<option value="SX"  data-code="" data-text="Sint Maarten">Sint Maarten</option>
+		                  									<option value="KG"  data-code="+996" data-text="Kyrgyzstan">Kyrgyzstan</option>
+		                  									<option value="KE"  data-code="+254" data-text="Kenya">Kenya</option>
+		                  									<option value="SS"  data-code="" data-text="South Sudan">South Sudan</option>
+		                  									<option value="SR"  data-code="+597" data-text="Suriname">Suriname</option>
+		                  									<option value="KI"  data-code="+686" data-text="Kiribati">Kiribati</option>
+		                  									<option value="KH"  data-code="+855" data-text="Cambodia">Cambodia</option>
+		                  									<option value="KN"  data-code="+1869" data-text="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+		                  									<option value="KM"  data-code="+269" data-text="Comoros">Comoros</option>
+		                  									<option value="ST"  data-code="+239" data-text="Sao Tome and Principe">Sao Tome and Principe</option>
+		                  									<option value="SK"  data-code="+421" data-text="Slovakia">Slovakia</option>
+		                  									<option value="KR"  data-code="+82" data-text="South Korea">South Korea</option>
+		                  									<option value="SI"  data-code="+386" data-text="Slovenia">Slovenia</option>
+		                  									<option value="KP"  data-code="+850" data-text="North Korea">North Korea</option>
+		                  									<option value="KW"  data-code="+965" data-text="Kuwait">Kuwait</option>
+		                  									<option value="SN"  data-code="+221" data-text="Senegal">Senegal</option>
+		                  									<option value="SM"  data-code="+378" data-text="San Marino">San Marino</option>
+		                  									<option value="SL"  data-code="+232" data-text="Sierra Leone">Sierra Leone</option>
+		                  									<option value="SC"  data-code="+248" data-text="Seychelles">Seychelles</option>
+		                  									<option value="KZ"  data-code="" data-text="Kazakhstan">Kazakhstan</option>
+		                  									<option value="KY"  data-code="+1345" data-text="Cayman Islands">Cayman Islands</option>
+		                  									<option value="SE"  data-code="+46" data-text="Sweden">Sweden</option>
+		                  									<option value="SD"  data-code="+249" data-text="Sudan">Sudan</option>
+		                  									<option value="DO"  data-code="+1809" data-text="Dominican Republic">Dominican Republic</option>
+		                  									<option value="DM"  data-code="+1767" data-text="Dominica">Dominica</option>
+		                  									<option value="DJ"  data-code="+253" data-text="Djibouti">Djibouti</option>
+		                  									<option value="DK"  data-code="+45" data-text="Denmark">Denmark</option>
+		                  									<option value="VG"  data-code="" data-text="British Virgin Islands">British Virgin Islands</option>
+		                  									<option value="DE"  data-code="+49" data-text="Germany">Germany</option>
+		                  									<option value="YE"  data-code="+967" data-text="Yemen">Yemen</option>
+		                  									<option value="DZ"  data-code="+213" data-text="Algeria">Algeria</option>
+		                  									<option value="UY"  data-code="+598" data-text="Uruguay">Uruguay</option>
+		                  									<option value="YT"  data-code="+262" data-text="Mayotte">Mayotte</option>
+		                  									<option value="UM"  data-code="" data-text="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+		                  									<option value="LB"  data-code="+961" data-text="Lebanon">Lebanon</option>
+		                  									<option value="LC"  data-code="+1758" data-text="Saint Lucia">Saint Lucia</option>
+		                  									<option value="LA"  data-code="" data-text="Laos">Laos</option>
+		                  									<option value="TV"  data-code="+688" data-text="Tuvalu">Tuvalu</option>
+		                  									<option value="TW"  data-code="" data-text="Taiwan">Taiwan</option>
+		                  									<option value="TT"  data-code="+1868" data-text="Trinidad and Tobago">Trinidad and Tobago</option>
+		                  									<option value="TR"  data-code="+90" data-text="Turkey">Turkey</option>
+		                  									<option value="LK"  data-code="+94" data-text="Sri Lanka">Sri Lanka</option>
+		                  									<option value="LI"  data-code="+423" data-text="Liechtenstein">Liechtenstein</option>
+		                  									<option value="LV"  data-code="+371" data-text="Latvia">Latvia</option>
+		                  									<option value="TO"  data-code="+676" data-text="Tonga">Tonga</option>
+		                  									<option value="LT"  data-code="+370" data-text="Lithuania">Lithuania</option>
+		                  									<option value="LU"  data-code="+352" data-text="Luxembourg">Luxembourg</option>
+		                  									<option value="LR"  data-code="+231" data-text="Liberia">Liberia</option>
+		                  									<option value="LS"  data-code="+266" data-text="Lesotho">Lesotho</option>
+		                  									<option value="TH"  data-code="+66" data-text="Thailand">Thailand</option>
+		                  									<option value="TF"  data-code="" data-text="French Southern Territories">French Southern Territories</option>
+		                  									<option value="TG"  data-code="+228" data-text="Togo">Togo</option>
+		                  									<option value="TD"  data-code="+235" data-text="Chad">Chad</option>
+		                  									<option value="TC"  data-code="+1649" data-text="Turks and Caicos Islands">Turks and Caicos Islands</option>
+		                  									<option value="LY"  data-code="" data-text="Libya">Libya</option>
+		                  									<option value="VA"  data-code="" data-text="Vatican">Vatican</option>
+		                  									<option value="VC"  data-code="+1784" data-text="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+		                  									<option value="AD"  data-code="+376" data-text="Andorra">Andorra</option>
+		                  									<option value="AG"  data-code="+1268" data-text="Antigua and Barbuda">Antigua and Barbuda</option>
+		                  									<option value="AF"  data-code="+93" data-text="Afghanistan">Afghanistan</option>
+		                  									<option value="AI"  data-code="+1264" data-text="Anguilla">Anguilla</option>
+		                  									<option value="VI"  data-code="" data-text="U.S. Virgin Islands">U.S. Virgin Islands</option>
+		                  									<option value="IS"  data-code="+354" data-text="Iceland">Iceland</option>
+		                  									<option value="IR"  data-code="" data-text="Iran">Iran</option>
+		                  									<option value="AM"  data-code="+374" data-text="Armenia">Armenia</option>
+		                  									<option value="AL"  data-code="+355" data-text="Albania">Albania</option>
+		                  									<option value="AO"  data-code="+244" data-text="Angola">Angola</option>
+		                  									<option value="AQ"  data-code="+672" data-text="Antarctica">Antarctica</option>
+		                  									<option value="AS"  data-code="+1684" data-text="American Samoa">American Samoa</option>
+		                  									<option value="AR"  data-code="+54" data-text="Argentina">Argentina</option>
+		                  									<option value="AT"  data-code="+43" data-text="Austria">Austria</option>
+		                  									<option value="AW"  data-code="+297" data-text="Aruba">Aruba</option>
+		                  									<option value="AX"  data-code="" data-text="Aland Islands">Aland Islands</option>
+		                  									<option value="AZ"  data-code="+994" data-text="Azerbaijan">Azerbaijan</option>
+		                  									<option value="IE"  data-code="+353" data-text="Ireland">Ireland</option>
+		                  									<option value="ID"  data-code="+62" data-text="Indonesia">Indonesia</option>
+		                  									<option value="UA"  data-code="+380" data-text="Ukraine">Ukraine</option>
+		                  									<option value="QA"  data-code="+974" data-text="Qatar">Qatar</option>
+		                  									<option value="MZ"  data-code="+258" data-text="Mozambique">Mozambique</option>
+		                  	                          </select>
+                      </div>
+                      <div class="col-md-2 col-xs-2 p-l-0 p-r-0">
+                          <label class="p-l-4"></label>
+                          <input type="text" id="cval" name="phone_code" readonly="" value="" required> 
+                      </div>
+                      <div class="col-md-7 col-xs-7 p-l-0">
+                          <label class="p-l-4">Phone Number *</label>
+                          <input type="tel" name="phone_number" onkeypress="return isNumberKey(event)" maxlength="15" required> 
+                      </div>
+                  </div>
+
+                  <div class="row m-t-5" id="fdemo">
+                      <div class="col-md-12">
+                          <label id="label_date">Enter Your Demo Date</label>
+                          <input type="text" name="demo_date" required id="datepicker" value="" readonly="" class="batch_date" autocomplete="off"> 
+                      </div>
+                  </div>
+
+                  <div class="row m-t-5" id="fmessage">
+                      <div class="col-md-12">
+                          <label id="labelmsg">Message</label>
+                          <textarea rows="3" maxlength="200" name="message" ></textarea>
+                      </div>
+                  </div>
+                  <!-- <div class="g-recaptcha" data-sitekey="6LfIij8UAAAAANm0O5yM6lYgA76ImQZUJztx90lC"></div>
+                  <br/> -->
+
+                  	<input type="hidden" name="track" id="batch_track" value="">
+                    <input type="hidden" name="type" id="form_type" value="">
+                    <input type="hidden" name="page_url" value="https://mindmajix.com/python-for-data-science-tutorial-for-beginners">
+                    <input type="hidden" name="subject" value="0">
+                    <input type="hidden" name="ip_address" value="197.232.29.98">
+                    <button type="submit" class="btn-100 btn bg-red waves-effect waves-light" id="submit_form">Contact Us</button>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- Free Demo Popup -->
+
+
+<!-- Call us Pop Up -->
+
+<div class="modal fade" id="call_us" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	      <div class="modal-header">
+	      Call us on<button type="button" class="close" data-dismiss="modal">&times;</button>
+	      </div>
+	    <div class="modal-body">
+	      <div class="clearfix" style="margin-bottom:20px;">
+	        <div class="col-xs-8 usa-number">
+	          <h6 style="margin-top:5px;"><strong>USA</strong> : +1 972 427 3027 </h6>
+	        </div>
+	        <div class="col-xs-4">
+	          <a href="tel:+1 972 427 3027" target="_blank" style="font-size:16px;color:#e94350;"><i class="fa fa-phone"></i> Call</a>
+	        </div>
+	      </div>
+
+	      <div class="clearfix">
+	        <div class="col-xs-8 usa-number">
+	          <h6 style="margin-top:5px;"><strong>INDIA</strong> : +91 9246 333 245</h6>
+	        </div>
+	        <div class="col-xs-4">
+	          <a href="tel:+91 9246 333 245" target="_blank" style="font-size:16px;color:#e94350;"><i class="fa fa-phone"></i> Call</a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>    
+</div>
+
+<!-- Call us Pop Up -->
+
+<!-- Login Popup -->
+
+<div class="modal modal-new-login modal-wide fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" data-target="login" aria-hidden="true" data-dismiss="modal">
+  <div class="modal-dialog newloginmodal centered-quiz" role="document">
+    <div class="modal-content loginmodal">
+        <button type="button" class="close modalclose onclicktab ga_signup_info" id="signin_signup_cancel" data-dismiss="modal" data-gacat="Signup popup" data-gaact="Close" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <div class="imageleftg_box" id="all_cour_login">
+          <div class="text">
+            <div class=""><span>Skill up with the world's</span> most effective <span>e-learning platform</span></div>
+            <div class=""><span>Trusted by</span> 3,50,850+ <span>Satisfied Learners</span></div>
+          </div>
+        </div>
+
+        <div class="tab-content p-t-60 p-b-60">
+          <div class="tab-pane fade in active">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 freedemo">
+              <div class="label">Login <span class="bot_border"></span></div>
+
+              <!-- <form id="loginform" class="m-t-40" role=form>
+
+                  <div class="row m-t-5">
+                      <div class="col-md-12">
+                          <label>E-mail Address *</label>
+                          <input type="email" name="username" id="login_username" required /> 
+                          <input type="hidden" name="login_type" value="user" required /> 
+                      </div>
+                  </div>
+
+                  <div class="row m-t-5">
+                      <div class="col-md-12">
+                          <label>Password *</label>
+                          <input type="password" name="password" id="login_password" required /> 
+                      </div>
+                  </div>                  
+                  <div class=f-pwd>
+                      <a href=javascript:void(); id=response_login></a>
+                  </div>
+                  <a href=javascript:void(); class="btn-100 btn bg-red waves-effect waves-light" onclick=validate_login() id=btn-login>Login</a>
+              </form>  -->      
+
+              <form class="m-t-40" id="logForm">
+                  <p class="error text-center">
+                     
+                  </p>               
+                  <div class="form-group ">
+                      <div class="col-xs-12">
+                          <label>E-mail Address *</label>                          
+                          <input name="email" type="text" required="">
+                          <input type="hidden" name="login_type" value="user" required /> 
+                      </div>
+                  </div>
+                  <div class="form-group ">                        
+                      <div class="col-xs-12">
+                          <label>Password *</label>                          
+                          <input name="password" type="password" required="">
+                      </div>
+                  </div>
+                  
+                  <div class="form-group text-right">
+                      <div class="col-xs-12">
+                          <button type="submit" class="btn-100 btn bg-red waves-effect waves-light"><span id="logText"></span></button>
+                      </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div id="responseDiv" class="p-5 text-center bg-danger m-t-20" style="display:none;">
+                    <button type="button" class="close" id="clearMsg"><span aria-hidden="true">&times;</span></button>
+                    <span id="message"></span>                    
+                  </div>
+
+                  <!-- <div class="form-group m-t-30">
+                      <div class="col-sm-7 pull-right text-right">
+                          <a href="#"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
+                      </div>
+                      <div class="col-sm-5 text-right">
+                          <a href="">Create an account</a>
+                      </div>
+                  </div> -->
+              </form>     
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+<!-- Free Demo Popup -->
+
+ <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <div class="modal fade" id="email_post" role="dialog">
+      <div class="modal-dialog">
+      <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+            Email this post<button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+          <div class="modal-body">
+            <form id="email_form" method="POST" class="m-t-30">
+                <div class="row m-t-5">
+                    <div class="col-md-12 text-left">
+                        <label>E-mail Address *</label>
+                        <input type="email" name="email" required /> 
+                    </div>
+                </div>
+                <button href="javascript:;" type="submit"class="btn-60 btn bg-red waves-effect waves-light">Send Email</button>
+            </form>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+    
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="https://cdn.mindmajix.com/asset/css/bootstrap.min.css" rel="stylesheet" media="all">    
+
+    <noscript id="deferred-styles">
+      <!-- Styles -->    
+        <link href="https://mindmajix.com/asset/css/style.css" rel="stylesheet">
+      <link href="https://cdn.mindmajix.com/asset/css/pikaday.css" rel="stylesheet">
+        <link href="https://mindmajix.com/asset/css/helper.css" rel="stylesheet">
+        <link href="https://cdn.mindmajix.com/asset/css/font-awesome.min.css" rel="stylesheet">    
+    </noscript>
+
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
+
+
+
+    <script type="text/javascript">
+      $(function() {
+        $('#bookmarkme').click(function() {
+          if (window.sidebar && window.sidebar.addPanel) { // Mozilla Firefox Bookmark
+            window.sidebar.addPanel(document.title, window.location.href, '');
+          } else if (window.external && ('AddFavorite' in window.external)) { // IE Favorite
+            window.external.AddFavorite(location.href, document.title);
+          } else if (window.opera && window.print) { // Opera Hotlist
+            this.title = document.title;
+            return true;
+          } else { // webkit - safari/chrome
+            alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL') + ' + D to bookmark this page.');
+          }
+        });
+      });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.mindmajix.com/asset/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdn.mindmajix.com/asset/js/pikaday.js"></script>
+    <script type="text/javascript" src="https://cdn.mindmajix.com/asset/js/jquery.exit-modal.js"></script>
+
+    <script>
+  $.fn.stars = function() {
+      return $(this).each(function() {
+          var rating = $(this).data("rating");
+          var numStars = $(this).data("numStars");
+          var fullStar = new Array(Math.floor(rating + 1)).join('<i class="fa fa-star"></i>');
+          var halfStar = ((rating%1) !== 0) ? '<i class="fa fa-star-half-empty"></i>': '';
+          var noStar = new Array(Math.floor(numStars + 1 - rating)).join('<i class="fa fa-star-o"></i>');
+          $(this).html(fullStar + halfStar + noStar);
+      });
+  }
+
+  $('.stars').stars();
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $(function() {
+    $(document).on('scroll', function() {
+        if ($(window).scrollTop() > 100) {
+            $('.scroll-top-wrapper').addClass('show');
+        } else {
+            $('.scroll-top-wrapper').removeClass('show');
+        }
+    });
+    $('.scroll-top-wrapper').on('click', scrollToTop);
+  });
+  function scrollToTop() {
+    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+    element = $('body');
+    offset = element.offset();
+    offsetTop = offset.top;
+    $('html, body').animate({
+        scrollTop: offsetTop
+    }, 500, 'linear');
+  }
+});
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#logText').html('Login');
+        $('#logForm').submit(function(e){
+            e.preventDefault();
+            $('#logText').html('Please Wait...');
+            var url = 'https://mindmajix.com/userlogin';
+            var user = $('#logForm').serialize();
+            var login = function(){
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    dataType: 'json',
+                    data: user,
+                    success:function(response){
+                        $('#message').html(response.message);
+                        $('#logText').html('Login');
+                        if(response.error){
+                            $('#responseDiv').removeClass('alert-success').addClass('alert-danger').show();
+                        }
+                        else{
+                            // alert(response);
+                            $('#responseDiv').removeClass('alert-danger').addClass('alert-success').show();
+                            $('#logForm')[0].reset();
+                            window.location = "https://mindmajix.com/mycourses";
+                        }
+                    }
+                });
+            };
+            setTimeout(login, 1000);
+        });
+
+        $(document).on('click', '#clearMsg', function(){
+            $('#responseDiv').hide();
+        });
+    });
+</script>
+
+
+<script>
+    function validate_login() {
+        var login_username = $('#login_username').val();
+        var login_password = $('#login_password').val();
+        var userType = 1;
+
+        var user_login = 'user_login';
+        var filter_username = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/;
+
+        var username = filter_username.test(login_username);
+
+        if (login_username == "")
+
+        {
+
+            $('#response_login').fadeIn('slow', function() {
+
+                $('#response_login').text('Please Provide Email');
+
+                $(this).delay(3000).fadeOut('slow');
+
+            });
+
+            $("#login_username").focus();
+
+            return false;
+
+        }
+
+        if (username == false)
+
+        {
+
+            $('#response_login').fadeIn('slow', function() {
+
+                $('#response_login').text('Please Provide a valid Email');
+
+                $(this).delay(3000).fadeOut('slow');
+
+            });
+
+            $("#login_username").focus();
+
+            return false;
+
+        }
+
+        if (login_password == "")
+
+        {
+
+            $('#response_login').fadeIn('slow', function() {
+
+                $('#response_login').text('Please Provide Password');
+
+                $(this).delay(3000).fadeOut('slow');
+
+            });
+
+            $("#login_password").focus();
+
+            return false;
+
+        } else {
+
+
+            $.post('https://mindmajix.com/validate_login', {
+                login_username: login_username,
+                login_password: login_password,
+                user_login: user_login,
+                userType: userType
+            }, function(res) {
+
+                if (res == 0) {
+
+                    $('#response_login').fadeIn('slow', function() {
+
+                        $('#response_login').text('Invalid username or password.');
+
+                        $(this).delay(3000).fadeOut('slow');
+
+                    });
+
+                } else {
+
+                    $('#response_login').fadeIn('slow', function() {
+
+                        $('#response_login').text('Login successfully.');
+
+                        $(this).delay(3000).fadeOut('slow');
+
+                    });
+                    if (userType == 1) {
+                        window.location = "https://mindmajix.com/mycourses";
+                    } else {
+                        window.location = "https://mindmajix.com/messages";
+                    }
+
+                }
+
+            });
+
+        }
+
+    }
+
+    function logout() {
+
+        var logout = 'logout';
+
+        $.post('https://mindmajix.com/logout', {
+            logout: logout
+        }, function(res) {
+
+            window.location = "https://mindmajix.com/";
+
+        });
+
+    }
+</script>    
+    <script type="text/javascript">
+      
+      (function ($) {
+          "use strict";
+          // INPUTS
+          var inputs = document.querySelectorAll('input[type="text"], textarea, input[type="textarea"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"]');
+          // INPUTS UNDERLINE ANIMATION
+          if (inputs) {
+              for (var i = 0; i < inputs.length; i++) {
+                  inputs[i].previousElementSibling.classList.add('floating-label');
+                  inputs[i].addEventListener('focusin', function () {
+                      this.previousElementSibling.classList.add('label-active');
+                  })
+                  inputs[i].addEventListener('focusout', function () {
+                      if (!(this.value == '')) {
+                          this.classList.add('input-active');
+                      }
+                      else if (this.value == '') {
+                          this.classList.remove('input-active');
+                          this.previousElementSibling.classList.remove('label-active');
+                      }
+                      else {
+                          this.previousElementSibling.classList.remove('label-active');
+                      }
+                  })
+              }
+          }
+          // REQUIRED INPUTS
+          
+      }(jQuery));
+    </script>
+
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+      $('#country_code option:selected').html($('#country_code option:selected').attr('value')); 
+
+      var cval = $('#country_code option:selected').attr('data-code');
+      $('#cval').val(cval+" - ");
+      $('#country_code').on('change mouseleave', function(){
+          var cval = $('#country_code option:selected').attr('data-code') ; 
+          $('#cval').val(cval+" - ");
+      });
+
+      $('#country_code').on('change mouseleave', function(){
+          $('#country_code option').each(function(){
+            $(this).html( $(this).attr('data-text') ); 
+          });
+          $('#country_code option:selected').html(  $('#country_code option:selected').attr('value')   );
+          $(this).blur();
+      });
+      $('#country_code').on('focus', function(){
+          $('#country_code option').each(function(){
+              $(this).html( $(this).attr('data-text') ); 
+          });
+      });
+
+      $('#get_cc option:selected').html($('#get_cc option:selected').attr('value')); 
+
+      var get_cval = $('#get_cc option:selected').attr('data-code');
+      $('#get_cval').val(get_cval+" - ");
+      $('#get_cc').on('change mouseleave', function(){
+          var get_cval = $('#get_cc option:selected').attr('data-code') ; 
+          $('#get_cval').val(get_cval+" - ");
+      });
+
+      $('#get_cc').on('change mouseleave', function(){
+          $('#get_cc option').each(function(){
+            $(this).html( $(this).attr('data-text') ); 
+          });
+          $('#get_cc option:selected').html(  $('#get_cc option:selected').attr('value')   );
+          $(this).blur();
+      });
+      $('#get_cc').on('focus', function(){
+          $('#get_cc option').each(function(){
+              $(this).html( $(this).attr('data-text') ); 
+          });
+      });
+
+    });
+
+    $("body").on("click","#form_button",function(){
+        var labelTxt = ($(this).attr("data-text"));
+        var labelMsg = ($(this).attr("data-message"));
+        $('#labelTxt').text(labelTxt);
+        $('#labelmsg').text(labelMsg);
+        $('#form_type').val(labelTxt);
+
+    })
+  </script>
+
+  
+    <script type="text/javascript">
+
+      $(document).ready(function() {
+
+        var ua = navigator.userAgent,
+        iOS = /iPad|iPhone|iPod/.test(ua),
+         iOS11 = /OS 11_0_1|OS 11_0_2|OS 11_0_3|OS 11_1|OS 11_2|OS 11_2_5/.test(ua);
+        if ( iOS && iOS11 ) {
+            $("body").addClass("iosBugFixCaret");
+        }
+      });
+      
+      $(document).ready(function(){
+
+          var timer;
+          var exitModalParams = {
+                  numberToShown: 1,
+                  callbackOnModalShow:            function() {
+                      var counter = $('#free_demo').data('exitModal').showCounter;
+                      $('#watch_demo').hide();
+                      $('#video_modal').hide();
+                      $('.modal-backdrop').hide();
+                  },
+                  
+              }
+          $('#free_demo').exitModal(exitModalParams);
+      });
+
+  
+    </script>
+
+  
+
+    <script>
+      var pickerDefault = new Pikaday(
+      {
+        field: document.getElementById('datepicker'),
+        minDate: new Date()
+      });
+    </script>
+
+    
+
+    <script type="text/javascript">
+      $(".stickyfooter").hide(), $(window).scroll(function() {
+          $(this).scrollTop() < 100 ? $(".stickyfooter").hide() : 100 < $(this).scrollTop() && $(".stickyfooter").show();
+          var o = $(document).height();
+          (o - ($(window).height() + $(window).scrollTop())) / o == 0 ? $("#stickyfooter").hide() : $("#stickyfooter").show()
+      }), $(window).scroll(function() {
+          var o = ($(document).height() - $(window).height() - $(window).scrollTop()) / 500;
+          o <= 1 ? $("#form_sticky").hide() : $("#form_sticky").show(), $("#form_sticky").css("opacity", o)
+      });
+    </script>
+
+     <script type="text/javascript">    
+      var originalPos;
+      $(document).on("scroll", function(e){
+        if($("#form_sticky").hasClass("affixed")){
+          if($(document).scrollTop() <= originalPos)
+            $("#form_sticky").removeClass("affixed");
+          return;
+        }
+
+        if((originalPos = $(document).scrollTop()) >= ($("#related_posts").offset().top + 100)){
+          $("#form_sticky").addClass("affixed");
+        }
+      });
+    </script> 
+
+    <script type="text/javascript">
+      
+      (function ($) {
+          "use strict";
+          // INPUTS
+          var inputs = document.querySelectorAll('input[type="text"], textarea, input[type="textarea"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"]');
+          // INPUTS UNDERLINE ANIMATION
+          if (inputs) {
+              for (var i = 0; i < inputs.length; i++) {
+                  inputs[i].previousElementSibling.classList.add('floating-label');
+                  inputs[i].addEventListener('focusin', function () {
+                      this.previousElementSibling.classList.add('label-active');
+                  })
+                  inputs[i].addEventListener('focusout', function () {
+                      if (!(this.value == '')) {
+                          this.classList.add('input-active');
+                      }
+                      else if (this.value == '') {
+                          this.classList.remove('input-active');
+                          this.previousElementSibling.classList.remove('label-active');
+                      }
+                      else {
+                          this.previousElementSibling.classList.remove('label-active');
+                      }
+                  })
+              }
+          }
+          // REQUIRED INPUTS
+          
+      }(jQuery));
+    </script>
+
+    <script type="text/javascript">
+      $('body').append('<div class="product-image-overlay"><span class="product-image-overlay-close">x</span><img src="" /></div>');
+        var productImage = $('img');
+        var productOverlay = $('.product-image-overlay');
+        var productOverlayImage = $('.product-image-overlay img');
+
+        productImage.click(function () {
+            var productImageSource = $(this).attr('src');
+
+            productOverlayImage.attr('src', productImageSource);
+            productOverlay.fadeIn(100);
+            $('body').css('overflow', 'hidden');
+
+            $('.product-image-overlay-close').click(function () {
+                productOverlay.fadeOut(100);
+                $('body').css('overflow', 'auto');
+            });
+        });
+    </script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $('#country_code option:selected').html($('#country_code option:selected').attr('value')); 
+
+      var cval = $('#country_code option:selected').attr('data-code');
+      $('#cval').val(cval+" - ");
+      $('#country_code').on('change mouseleave', function(){
+          var cval = $('#country_code option:selected').attr('data-code') ; 
+          $('#cval').val(cval+" - ");
+      });
+
+      $('#country_code').on('change mouseleave', function(){
+          $('#country_code option').each(function(){
+            $(this).html( $(this).attr('data-text') ); 
+          });
+          $('#country_code option:selected').html(  $('#country_code option:selected').attr('value')   );
+          $(this).blur();
+      });
+      $('#country_code').on('focus', function(){
+          $('#country_code option').each(function(){
+              $(this).html( $(this).attr('data-text') ); 
+          });
+      });
+
+      $('#get_cc option:selected').html($('#get_cc option:selected').attr('value')); 
+
+      var get_cval = $('#get_cc option:selected').attr('data-code');
+      $('#get_cval').val(get_cval+" - ");
+      $('#get_cc').on('change mouseleave', function(){
+          var get_cval = $('#get_cc option:selected').attr('data-code') ; 
+          $('#get_cval').val(get_cval+" - ");
+      });
+
+      $('#get_cc').on('change mouseleave', function(){
+          $('#get_cc option').each(function(){
+            $(this).html( $(this).attr('data-text') ); 
+          });
+          $('#get_cc option:selected').html(  $('#get_cc option:selected').attr('value')   );
+          $(this).blur();
+      });
+      $('#get_cc').on('focus', function(){
+          $('#get_cc option').each(function(){
+              $(this).html( $(this).attr('data-text') ); 
+          });
+      });
+
+      $('#drop_cc option:selected').html($('#drop_cc option:selected').attr('value')); 
+
+      var drop_cval = $('#drop_cc option:selected').attr('data-code');
+      $('#drop_cval').val(drop_cval+" - ");
+      $('#drop_cc').on('change mouseleave', function(){
+          var drop_cval = $('#drop_cc option:selected').attr('data-code') ; 
+          $('#drop_cval').val(drop_cval+" - ");
+      });
+
+      $('#drop_cc').on('change mouseleave', function(){
+          $('#drop_cc option').each(function(){
+            $(this).html( $(this).attr('data-text') ); 
+          });
+          $('#drop_cc option:selected').html(  $('#drop_cc option:selected').attr('value')   );
+          $(this).blur();
+      });
+      $('#drop_cc').on('focus', function(){
+          $('#drop_cc option').each(function(){
+              $(this).html( $(this).attr('data-text') ); 
+          });
+      });
+
+    });
+
+    $("body").on("click","#form_button",function(){
+        var labelTxt = ($(this).attr("data-text"));
+        var labelMsg = ($(this).attr("data-message"));
+        $('#labelTxt').text(labelTxt);
+        $('#labelmsg').text(labelMsg);
+        $('#form_type').val(labelTxt);
+
+    })
+  </script>
+
+    <script type="text/javascript">
+      function isNumberKey(evt)
+        {
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode != 46 && charCode > 31
+                    && (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+    </script>
+
+    <script>
+
+
+      $(document).ready(function(){
+        $("a").on('click', function(event) {
+
+          var url = $(this).attr('href');
+          if(url.indexOf("#") != -1 && url.indexOf("mindmajix") != -1){
+            if($(this).attr('target') == "_blank")
+            {
+              window.open($(this).attr('href'), "_blank");
+            }
+            else{
+              window.location.href = $(this).attr('href');
+            }
+          }
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+          } 
+
+          
+        });
+      });
+
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.search-block').hide(); 
+        $('.search-menu').on('click', function(){     
+          $('.search-block').show(); 
+          $('.search-block').addClass('open-search');
+        });
+
+        $('.close-popup').on('click', function(){
+          $(this).parent().removeClass('open-search');
+          $(this).parent().removeClass('active');    
+        }); 
+      });
+    </script>
+
+    <script type="text/javascript">
+
+      // Google Analytics code
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-54328260-1', 'auto');
+      ga('send', 'pageview');
+      gtag('config', 'AW-825123267');
+
+    </script>
+
+
+  </body>
+</html>
+    
+
+    
+    
